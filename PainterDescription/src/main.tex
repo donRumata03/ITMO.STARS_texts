@@ -1,0 +1,62 @@
+%! Author = Vova
+%! Date = 13.07.2021
+
+% Preamble
+\documentclass[11pt]{article}
+
+
+% Packages
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{polyglossia}
+
+
+% Language and Font settings
+
+% Kurale
+% New Standard Old
+
+\setdefaultlanguage{russian}
+\setmainfont[Ligatures=TeX]{New Standard Old}
+\newfontfamily\cyrillicfont{New Standard Old}[Script=Cyrillic]
+
+\title{Описание программной части робота-художника}
+\author{Латыпов Владимир Витальевич}
+\date{\today}
+
+% Document
+\begin{document}
+    \maketitle
+
+
+
+    \section{Формулировка задачи}
+
+    Для того, чтобы робот-художник нарисовал что-либо, ему нужно предоставить данные в определённом формате, а именно — не набор пикселей,
+    как требуется для показа на мониторе, а набор «мазков»: это связано с конструкцией самого робота.
+    Мазки решено было представлять в виде кривых безье второго порядка (то есть квадратичных), к которым добавлены параметры «толщина» и «цвет».
+
+    Но на вход подаются рисунки не в векторном, а в растровом формате.
+    Найти такую комбинацию мазков, которая бы лучше всего соответствовала картине/изображению — задача нетривиальная, имеющая множество решений.
+
+    Поэтому решено было использовать эвристические алгоритмы оптимизации:
+    \href{https://en.wikipedia.org/wiki/Simulated_annealing}{Генетический алгоритм} и \href{https://en.wikipedia.org/wiki/Simulated_annealing}{Симуляция отжига}.
+
+    Функцию ошибки необходимо задать таким образом, чтобы она отражала качество полученной комбинации мазков,
+    причём в любой точке направление её уменьшения соответствовало направлению улучшения результата.
+    Помимо напрашивающегося \href{https://en.wikipedia.org/wiki/Mean_squared_error}{MSE}, используемого
+
+    \begin{equation}\label{eq:equation}
+        MSE = \sum_{y = 0}^{y < height} { \sum_{x = 0}^{x < width} { \sum_{c \in  \left\{ r, g, b \right\} } { \left( {\overrightarrow {rendered_{x, y}}}_c - {\overrightarrow{original_{x, y}}}_c\right)^2 }}}
+    \end{equation}
+
+
+    \section{Дальнейшее развитие}
+    Несмотря на то, что программа уже работоспособна, есть ещё много идей и планов по её усовершенствованию:
+    \begin{itemize}
+        \item Внедрить \textit{быстрый пересчёт функции ошибки} — это улучшение давно напрашивается,
+                но оно несколько теряет в эффективности из-за того, что в одной мутации в среднем изменяется не так мало мазков. В настоящий момент ведётся работа над этим.
+        \item
+    \end{itemize}
+
+\end{document}
