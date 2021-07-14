@@ -81,22 +81,22 @@
         \begin{figure}[!htb]
             \centering
 
-            \minipage{0.22\textwidth}
+            \minipage{0.15\textwidth}
                 \includegraphics[width=\linewidth]{../images/painting_example_layer_0.png}
                 \caption{Фон, основные цвета}\label{fig:layer0}
             \endminipage\hfill
 
-            \minipage{0.22\textwidth}
+            \minipage{0.15\textwidth}
                 \includegraphics[width=\linewidth]{../images/painting_example_layer_1.png}
                 \caption{Рельеф у фона}\label{fig:layer1}
             \endminipage\hfill
 
-            \minipage{0.22\textwidth}
+            \minipage{0.15\textwidth}
                 \includegraphics[width=\linewidth]{../images/painting_example_layer_2.png}
                 \caption{Детализация объектов на заднем палане}\label{fig:layer2}
             \endminipage\hfill
 
-            \minipage{0.22\textwidth}
+            \minipage{0.15\textwidth}
                 \includegraphics[width=\linewidth]{../images/painting_example_layer_3.png}
                 \caption{Основные объекты}\label{fig:layer3}
             \endminipage\hfill
@@ -106,7 +106,23 @@
 
                 Поэтому стоит попробовать сначала заполнять картинку толстыми, грубыми мазками
                 (то есть просто с большей шириной, а в реальной жизни это будет отражаться в большем размере кисти и в более сильном нажатии).
-        \item …
+        \item Добавить использование локальных методов оптимизации.
+                Такие методы, как \textbf\textit{{градиентный спуск}} и \textbf\textit{{метод Ньютона}} позволяют достичь гораздо большей скорости сходимости
+                (в случае метода ньютона — сходимость \href{http://w.ict.nsc.ru/books/textbooks/akhmerov/mo_unicode/4.html}{квадратичная}),
+                но требуют умения посчитать градиент функции ошибки в любой точке, а также вектор вторых производных по каждому из аргументов.
+
+                Сами алгоритмы реализованы и находятся в \href{https://github.com/donRumata03/PowerfulGA/blob/master/other_optimization/local_optimization.cpp}{этой папке}.
+                Предусмотрена опция подсчёта первой и вторых производных через подстановку близких значений параметров:
+
+                \begin{equation}
+                    f'(x_0) \approx \frac{f(x_0 + \Delta x) - f(x_0)}{\Delta x}
+                \end{equation}
+
+                Однако в случае с мазками при маленьких изменениях параметров функция ошибки остаётся неизменной, так как это приводит к такому же набору закрашенных пикселей.
+                Соответственно, нужно либо радикально увеличивать разрешение изображения, либо использовать аналитические методы.
+                То есть нужно математически посчитать изменение функции ошибки при бесконечно малом изменении из параметров функции.
+
+
     \end{itemize}
 
 \end{document}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2021.7.13)  14 JUL 2021 13:35
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2021.7.13)  14 JUL 2021 16:33
 entering extended mode
 **./main.tex
 (main.tex
@@ -611,16 +611,16 @@ Overfull \hbox (7.37325pt too wide) in paragraph at lines 41--43
 ]
 
 LaTeX Font Warning: Font shape `TU/NewStandardOld(1)/m/it' undefined
-(Font)              using `TU/NewStandardOld(1)/m/n' instead on input line 66.
+(Font)              using `TU/NewStandardOld(1)/m/n' instead on input line 73.
 
 
-Overfull \hbox (3.8757pt too wide) in paragraph at lines 66--69
+Overfull \hbox (3.8757pt too wide) in paragraph at lines 73--76
 []\TU/NewStandardOld(1)/m/n/10.95 Внедрить быстрый пересчёт функции ошибки — эт
 о улучшение дав-
  []
 
-main.tex:70: Undefined control sequence.
-l.70 ...овыми мазками большого размера, а затем \—
+main.tex:77: Undefined control sequence.
+l.77 ...овыми мазками большого размера, а затем \—
                                                    прорабатывают детали.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -630,43 +630,85 @@ and I'll forget about whatever was undefined.
 
 File: ../images/painting_example_layer_0.png Graphic file (type bmp)
 <../images/painting_example_layer_0.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+[]\TU/NewStandardOld(1)/m/n/10.95 Рис. 1:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+[]\TU/NewStandardOld(1)/m/n/10.95 Фон, ос-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+\TU/NewStandardOld(1)/m/n/10.95 новные
+ []
+
 File: ../images/painting_example_layer_1.png Graphic file (type bmp)
 <../images/painting_example_layer_1.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[]\TU/NewStandardOld(1)/m/n/10.95 Рис. 2:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[]\TU/NewStandardOld(1)/m/n/10.95 Рельеф у
+ []
+
 File: ../images/painting_example_layer_2.png Graphic file (type bmp)
 <../images/painting_example_layer_2.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--89
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 []\TU/NewStandardOld(1)/m/n/10.95 Рис. 3:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--89
+Overfull \hbox (13.45418pt too wide) in paragraph at lines 96--96
 []\TU/NewStandardOld(1)/m/n/10.95 Детализация
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--89
-\TU/NewStandardOld(1)/m/n/10.95 объектов на
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\TU/NewStandardOld(1)/m/n/10.95 объектов
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 96--96
+\TU/NewStandardOld(1)/m/n/10.95 на заднем
  []
 
 File: ../images/painting_example_layer_3.png Graphic file (type bmp)
 <../images/painting_example_layer_3.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []\TU/NewStandardOld(1)/m/n/10.95 Рис. 4:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []\TU/NewStandardOld(1)/m/n/10.95 Основные
  []
 
 
-Overfull \hbox (51.40686pt too wide) in paragraph at lines 73--99
+Overfull \hbox (51.40686pt too wide) in paragraph at lines 80--106
 []\TU/NewStandardOld(1)/m/n/10.95 Пример того, как художник ([]https://www.yout
 ube.com/watch?v=VaXHtai2alU[])
  []
 
+
+LaTeX Font Warning: Font shape `TU/NewStandardOld(1)/b/it' undefined
+(Font)              using `TU/NewStandardOld(1)/b/n' instead on input line 110.
+
+
+
+Overfull \hbox (5.74533pt too wide) in paragraph at lines 109--113
+\TU/NewStandardOld(1)/b/it/10.95 тона — сходимость []квадратичная[]), но требую
+т умения посчитать
+ []
+
+[2]
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -701,29 +743,32 @@ braces):
 >  {russian/babelname}  =>  {russian}
 >  {russian/localnumeral}  =>  {russiannumerals}
 >  {russian/Localnumeral}  =>  {Russiannumerals}.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
-[2] [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
+ [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 125.
  (D:/Projects\ITMO.STARS_texts\PainterDescription\auxil\main.aux
 LaTeX Info: Redefining \rmfamily on input line 20.
 LaTeX Info: Redefining \sffamily on input line 20.
 LaTeX Info: Redefining \ttfamily on input line 20.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 105.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 125.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7362F4D2975C0524C1126FEDCFE60045;812.
+(rerunfilecheck)             Checksum: 943F30E5EE8D0D9411C482F49F7D0BDE;925.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
  ) 
 Here is how much of TeX's memory you used:
- 13047 strings out of 414480
- 247585 string characters out of 2906353
- 591553 words of memory out of 3000000
- 30131 multiletter control sequences out of 15000+200000
+ 13052 strings out of 414480
+ 247709 string characters out of 2906353
+ 593467 words of memory out of 3000000
+ 30136 multiletter control sequences out of 15000+200000
  540118 words of font info for 61 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  51i,18n,70p,934b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
