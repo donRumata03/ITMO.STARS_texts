@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2021.7.13)  14 JUL 2021 16:33
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2021.7.13)  15 JUL 2021 14:06
 entering extended mode
 **./main.tex
 (main.tex
@@ -355,6 +355,41 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count298
 \c@blind@pangrammax=\count299
 )
+(C:\Users\Vova\AppData\Roaming\MiKTeX\2.9\tex/latex/subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(C:\Users\Vova\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(C:\Users\Vova\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen153
+\captionmargin@=\dimen154
+\captionwidth=\dimen155
+\caption@tempdima=\dimen156
+\caption@indent=\dimen157
+\caption@parindent=\dimen158
+\caption@hangindent=\dimen159
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count300
+\c@continuedfloat=\count301
+Package caption Info: hyperref package is loaded.
+)
+\c@KVtest=\count302
+\sf@farskip=\skip53
+\sf@captopadj=\dimen160
+\sf@capskip=\skip54
+\sf@nearskip=\skip55
+\c@subfigure=\count303
+\c@subfigure@save=\count304
+\c@lofdepth=\count305
+\c@subtable=\count306
+\c@subtable@save=\count307
+\c@lotdepth=\count308
+\sf@top=\skip56
+\sf@bottom=\skip57
+)
 (C:\Users\Vova\AppData\Roaming\MiKTeX\2.9\tex/latex/polyglossia\gloss-russian.l
 df
 File: gloss-russian.ldf polyglossia: module for russian
@@ -408,56 +443,52 @@ Package polyglossia Info: Making " an active character on input line 94.
 )
 Package polyglossia Info: Default language is russian.
 
-Package fontspec Info: Could not resolve font "New Standard Old/BI" (it
-(fontspec)             probably doesn't exist).
+Package fontspec Info: Could not resolve font "Kurale/BI" (it probably doesn't
+(fontspec)             exist).
 
 
-Package fontspec Info: Could not resolve font "New Standard Old/B" (it
-(fontspec)             probably doesn't exist).
+Package fontspec Info: Could not resolve font "Kurale/B" (it probably doesn't
+(fontspec)             exist).
 
 
-Package fontspec Info: Could not resolve font "New Standard Old/I" (it
-(fontspec)             probably doesn't exist).
+Package fontspec Info: Could not resolve font "Kurale/I" (it probably doesn't
+(fontspec)             exist).
 
 
-Package fontspec Info: Font family 'NewStandardOld(0)' created for font 'New
-(fontspec)             Standard Old' with options
-(fontspec)             [Ligatures=TeX,Ligatures=TeX].
+Package fontspec Info: Font family 'Kurale(0)' created for font 'Kurale' with
+(fontspec)             options [Ligatures=TeX,Ligatures=TeX].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"New Standard
-(fontspec)             Old/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Kurale/OT:script=latn;language=dflt;mapping=tex-text
+;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
-
-Package fontspec Warning: Font "New Standard Old" does not contain requested
-(fontspec)                Script "Cyrillic".
-
-
-Package fontspec Info: Could not resolve font "New Standard Old/BI" (it
-(fontspec)             probably doesn't exist).
+Package fontspec Info: Could not resolve font "Kurale/BI" (it probably doesn't
+(fontspec)             exist).
 
 
-Package fontspec Info: Could not resolve font "New Standard Old/B" (it
-(fontspec)             probably doesn't exist).
+Package fontspec Info: Could not resolve font "Kurale/B" (it probably doesn't
+(fontspec)             exist).
 
 
-Package fontspec Info: Could not resolve font "New Standard Old/I" (it
-(fontspec)             probably doesn't exist).
+Package fontspec Info: Could not resolve font "Kurale/I" (it probably doesn't
+(fontspec)             exist).
 
 
-Package fontspec Info: Font family 'NewStandardOld(1)' created for font 'New
-(fontspec)             Standard Old' with options [Script=Cyrillic].
+Package fontspec Info: Font family 'Kurale(1)' created for font 'Kurale' with
+(fontspec)             options [].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"New Standard
-(fontspec)             Old/OT:language=dflt;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Kurale/OT:script=latn;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
 
 (D:/Projects\ITMO.STARS_texts\PainterDescription\auxil\main.aux
 LaTeX Info: Redefining \rmfamily on input line 20.
@@ -466,34 +497,34 @@ LaTeX Info: Redefining \ttfamily on input line 20.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-0.
+1.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 \AtBeginShipoutBox=\box49
-Package hyperref Info: Link coloring OFF on input line 30.
+Package hyperref Info: Link coloring OFF on input line 31.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -505,11 +536,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count300
+\c@section@level=\count309
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
  (D:/Projects\ITMO.STARS_texts\PainterDescription\auxil\main.out)
 (D:/Projects\ITMO.STARS_texts\PainterDescription\auxil\main.out)
 \@outlinefile=\write3
@@ -521,194 +552,139 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 30.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 30.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 30.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 30.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 30.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 30.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 30.
-LaTeX Font Info:    Redeclaring math accent \check on input line 30.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 30.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 30.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 30.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 30.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 31.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 31.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 31.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 31.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 31.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 31.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 31.
+LaTeX Font Info:    Redeclaring math accent \check on input line 31.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 31.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 31.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 31.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 31.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 30.
+(Font)              `operators' in the math version `normal' on input line 31.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/NewStandardOld(0)/m/n on input line 
-30.
+(Font)                  OT1/cmr/m/n --> TU/Kurale(0)/m/n on input line 31.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 30.
+(Font)              `operators' in the math version `bold' on input line 31.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/NewStandardOld(0)/m/n on input line
- 30.
+(Font)                  OT1/cmr/bx/n --> TU/Kurale(0)/m/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/NewStandardOld(0)/m/n --> TU/NewStandardOld(0)/m/n o
-n input line 30.
+(Font)                  TU/Kurale(0)/m/n --> TU/Kurale(0)/m/n on input line 31.
+
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/NewStandardOld(0)/m/it on input lin
-e 30.
+(Font)                  OT1/cmr/m/it --> TU/Kurale(0)/m/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/NewStandardOld(0)/b/n on input line
- 30.
+(Font)                  OT1/cmr/bx/n --> TU/Kurale(0)/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 30.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 30.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/NewStandardOld(0)/m/n --> TU/NewStandardOld(0)/b/n o
-n input line 30.
+(Font)                  TU/Kurale(0)/m/n --> TU/Kurale(0)/b/n on input line 31.
+
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/NewStandardOld(0)/b/it on input li
-ne 30.
+(Font)                  OT1/cmr/bx/it --> TU/Kurale(0)/b/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 30.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 30.
-LaTeX Info: Redefining \rmfamily on input line 30.
-LaTeX Info: Redefining \sffamily on input line 30.
-LaTeX Info: Redefining \ttfamily on input line 30.
-LaTeX Info: Redefining \rmfamily on input line 30.
-LaTeX Info: Redefining \sffamily on input line 30.
-LaTeX Info: Redefining \ttfamily on input line 30.
-
-
-LaTeX Font Warning: Font shape `TU/NewStandardOld(1)/b/n' undefined
-(Font)              using `TU/NewStandardOld(1)/m/n' instead on input line 35.
-
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 31.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \rmfamily on input line 31.
+LaTeX Info: Redefining \sffamily on input line 31.
+LaTeX Info: Redefining \ttfamily on input line 31.
+LaTeX Info: Redefining \rmfamily on input line 31.
+LaTeX Info: Redefining \sffamily on input line 31.
+LaTeX Info: Redefining \ttfamily on input line 31.
 
 (C:\Users\Vova\AppData\Roaming\MiKTeX\2.9\tex/generic/stringenc\se-ascii-print.
 def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
-)
-Overfull \hbox (13.91321pt too wide) in paragraph at lines 37--40
-[]\TU/NewStandardOld(1)/m/n/10.95 Для того, чтобы робот-художник нарисовал что-
-либо, ему нужно предо-
- []
-
-
-Overfull \hbox (7.37325pt too wide) in paragraph at lines 41--43
-\TU/NewStandardOld(1)/m/n/10.95 ствовала картине/изображению — задача нетривиал
-ьная, имеющая мно-
- []
-
-[1
+) [1
 
 ]
 
-LaTeX Font Warning: Font shape `TU/NewStandardOld(1)/m/it' undefined
-(Font)              using `TU/NewStandardOld(1)/m/n' instead on input line 73.
+LaTeX Font Warning: Font shape `TU/Kurale(1)/b/n' undefined
+(Font)              using `TU/Kurale(1)/m/n' instead on input line 36.
 
 
-Overfull \hbox (3.8757pt too wide) in paragraph at lines 73--76
-[]\TU/NewStandardOld(1)/m/n/10.95 Внедрить быстрый пересчёт функции ошибки — эт
-о улучшение дав-
+Overfull \hbox (0.13568pt too wide) in paragraph at lines 65--67
+\TU/Kurale(1)/m/n/10.95 механизмов), а при размножении новая особь наследует пр
+изнаки каж-
  []
 
-main.tex:77: Undefined control sequence.
-l.77 ...овыми мазками большого размера, а затем \—
-                                                   прорабатывают детали.
+[2]
+
+LaTeX Font Warning: Font shape `TU/Kurale(1)/m/it' undefined
+(Font)              using `TU/Kurale(1)/m/n' instead on input line 76.
+
+[3]
+Overfull \hbox (4.59125pt too wide) in paragraph at lines 100--101
+[]\TU/Kurale(1)/m/it/10.95 Если алгоритм подходит к концу, добавить лучший гено
+м из преды-
+ []
+
+main.tex:117: Undefined control sequence.
+l.117 ...я провести тщательное тестирование (см.\ 
+                                                  \ref{item:testing_system})
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+LaTeX Warning: Reference `item:testing_system' on page 4 undefined on input lin
+e 117.
+
+[4]
+Overfull \hbox (45.6608pt too wide) in paragraph at lines 133--134
+[]\TU/Kurale(1)/b/n/10.95 Пример того, как художник ([]https://www.youtube.com/
+watch?v=VaXHtai2alU[])
+ []
+
 File: ../images/painting_example_layer_0.png Graphic file (type bmp)
 <../images/painting_example_layer_0.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
-[]\TU/NewStandardOld(1)/m/n/10.95 Рис. 1:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
-[]\TU/NewStandardOld(1)/m/n/10.95 Фон, ос-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
-\TU/NewStandardOld(1)/m/n/10.95 новные
- []
-
 File: ../images/painting_example_layer_1.png Graphic file (type bmp)
 <../images/painting_example_layer_1.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-[]\TU/NewStandardOld(1)/m/n/10.95 Рис. 2:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-[]\TU/NewStandardOld(1)/m/n/10.95 Рельеф у
- []
-
 File: ../images/painting_example_layer_2.png Graphic file (type bmp)
 <../images/painting_example_layer_2.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
-[]\TU/NewStandardOld(1)/m/n/10.95 Рис. 3:
- []
-
-
-Overfull \hbox (13.45418pt too wide) in paragraph at lines 96--96
-[]\TU/NewStandardOld(1)/m/n/10.95 Детализация
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
-\TU/NewStandardOld(1)/m/n/10.95 объектов
- []
-
-
-Underfull \hbox (badness 4886) in paragraph at lines 96--96
-\TU/NewStandardOld(1)/m/n/10.95 на заднем
- []
-
 File: ../images/painting_example_layer_3.png Graphic file (type bmp)
 <../images/painting_example_layer_3.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
-[]\TU/NewStandardOld(1)/m/n/10.95 Рис. 4:
+LaTeX Font Warning: Font shape `TU/Kurale(1)/b/it' undefined
+(Font)              using `TU/Kurale(1)/b/n' instead on input line 175.
+
+[5]
+Overfull \hbox (6.6325pt too wide) in paragraph at lines 190--193
+[]\TU/Kurale(1)/b/it/10.95 Организовать систему тестирования различных алгоритм
+ов на раз-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
-[]\TU/NewStandardOld(1)/m/n/10.95 Основные
+Overfull \hbox (1.19426pt too wide) in paragraph at lines 197--203
+[]\TU/Kurale(1)/b/it/10.95 Целесообразно сравнивать количество итераций, требую
+щееся ал-
  []
 
-
-Overfull \hbox (51.40686pt too wide) in paragraph at lines 80--106
-[]\TU/NewStandardOld(1)/m/n/10.95 Пример того, как художник ([]https://www.yout
-ube.com/watch?v=VaXHtai2alU[])
- []
-
-
-LaTeX Font Warning: Font shape `TU/NewStandardOld(1)/b/it' undefined
-(Font)              using `TU/NewStandardOld(1)/b/n' instead on input line 110.
-
-
-
-Overfull \hbox (5.74533pt too wide) in paragraph at lines 109--113
-\TU/NewStandardOld(1)/b/it/10.95 тона — сходимость []квадратичная[]), но требую
-т умения посчитать
- []
-
-[2]
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -743,35 +719,44 @@ braces):
 >  {russian/babelname}  =>  {russian}
 >  {russian/localnumeral}  =>  {russiannumerals}
 >  {russian/Localnumeral}  =>  {Russiannumerals}.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
- [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 125.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
+[6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
  (D:/Projects\ITMO.STARS_texts\PainterDescription\auxil\main.aux
 LaTeX Info: Redefining \rmfamily on input line 20.
 LaTeX Info: Redefining \sffamily on input line 20.
 LaTeX Info: Redefining \ttfamily on input line 20.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 125.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 943F30E5EE8D0D9411C482F49F7D0BDE;925.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 212.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: DA2F6248875B55FC596E8B2828B8985B;591
+(rerunfilecheck)             After:  7F244B3BA61A56C9129100ADAADF338A;1150.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
  ) 
 Here is how much of TeX's memory you used:
- 13052 strings out of 414480
- 247709 string characters out of 2906353
- 593467 words of memory out of 3000000
- 30136 multiletter control sequences out of 15000+200000
- 540118 words of font info for 61 fonts, out of 3000000 for 9000
+ 14498 strings out of 414480
+ 276231 string characters out of 2906353
+ 619585 words of memory out of 3000000
+ 31575 multiletter control sequences out of 15000+200000
+ 540110 words of font info for 60 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 51i,18n,70p,934b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,18n,103p,934b,490s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on D:/Projects\ITMO.STARS_texts\PainterDescription\out\main.pdf 
-(3 pages).
+(6 pages).
