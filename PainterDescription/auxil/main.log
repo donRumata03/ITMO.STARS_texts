@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2021.7.13)  15 JUL 2021 14:06
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2021.7.13)  15 JUL 2021 14:27
 entering extended mode
 **./main.tex
 (main.tex
@@ -642,23 +642,10 @@ Overfull \hbox (4.59125pt too wide) in paragraph at lines 100--101
 м из преды-
  []
 
-main.tex:117: Undefined control sequence.
-l.117 ...я провести тщательное тестирование (см.\ 
-                                                  \ref{item:testing_system})
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `item:testing_system' on page 4 undefined on input lin
-e 117.
-
 [4]
 Overfull \hbox (45.6608pt too wide) in paragraph at lines 133--134
-[]\TU/Kurale(1)/b/n/10.95 Пример того, как художник ([]https://www.youtube.com/
-watch?v=VaXHtai2alU[])
+[]\TU/Kurale(1)/m/it/10.95 Пример того, как художник ([]https://www.youtube.com
+/watch?v=VaXHtai2alU[])
  []
 
 File: ../images/painting_example_layer_0.png Graphic file (type bmp)
@@ -671,16 +658,16 @@ File: ../images/painting_example_layer_3.png Graphic file (type bmp)
 <../images/painting_example_layer_3.png>
 
 LaTeX Font Warning: Font shape `TU/Kurale(1)/b/it' undefined
-(Font)              using `TU/Kurale(1)/b/n' instead on input line 175.
+(Font)              using `TU/Kurale(1)/b/n' instead on input line 150.
 
 [5]
-Overfull \hbox (6.6325pt too wide) in paragraph at lines 190--193
+Overfull \hbox (6.6325pt too wide) in paragraph at lines 165--168
 []\TU/Kurale(1)/b/it/10.95 Организовать систему тестирования различных алгоритм
 ов на раз-
  []
 
 
-Overfull \hbox (1.19426pt too wide) in paragraph at lines 197--203
+Overfull \hbox (1.19426pt too wide) in paragraph at lines 172--178
 []\TU/Kurale(1)/b/it/10.95 Целесообразно сравнивать количество итераций, требую
 щееся ал-
  []
@@ -719,40 +706,28 @@ braces):
 >  {russian/babelname}  =>  {russian}
 >  {russian/localnumeral}  =>  {russiannumerals}
 >  {russian/Localnumeral}  =>  {Russiannumerals}.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
 [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
  (D:/Projects\ITMO.STARS_texts\PainterDescription\auxil\main.aux
 LaTeX Info: Redefining \rmfamily on input line 20.
 LaTeX Info: Redefining \sffamily on input line 20.
 LaTeX Info: Redefining \ttfamily on input line 20.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 212.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 187.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 7F244B3BA61A56C9129100ADAADF338A;1150.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: DA2F6248875B55FC596E8B2828B8985B;591
-(rerunfilecheck)             After:  7F244B3BA61A56C9129100ADAADF338A;1150.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
  ) 
 Here is how much of TeX's memory you used:
  14498 strings out of 414480
  276231 string characters out of 2906353
- 619585 words of memory out of 3000000
+ 620182 words of memory out of 3000000
  31575 multiletter control sequences out of 15000+200000
  540110 words of font info for 60 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
