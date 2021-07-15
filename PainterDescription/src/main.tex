@@ -80,6 +80,7 @@
     В каждый момент времени алгоритм работает с \textit{популяцией} — набором геномов. Полный аналог популяции в природе.
     Мутация — как и в реальной жизни — небольшое случайное изменение генома без строго определённого направления.
 
+    \subsection{Примерная последовательность действий ГА}\label{subsec:approx_ga_algo}
     В общих чертах работа ГА выглядит так:
 
     \underline{Инициализация}: Сгенерировать случайную популяцию, каждый ген каждого генома — в заданных пределах.
@@ -100,7 +101,7 @@
         \item Если алгоритм подходит к концу, добавить лучший геном из предыдущего поколения (чтобы он не подвергся мутации)
     \end{enumerate}
 
-    \section{Авторские Модификации  в ГА}\label{sec:my_modifications}
+    \subsection{Авторские Модификации  в ГА}\label{sec:my_modifications}
 
     Учитывая тот факт, что в большинстве задач, решаемых мною, бОльшая часть вычислительного времени ($>> 95\%$) используется для подсчёта функции ошибки, а не для маниппуляций с геномами
     (это подтверждается результатами профайлинга).
@@ -134,7 +135,7 @@
     Индекс Джини рассчитывается как отношение площади между кривой Лоренца и «линией равенства» к площади под линией равенства.
     Иными словами, $G = \frac{A}{A + B}$ на этой схеме:
 
-    \begin{figure}\label{fig:lorenz_curve}
+    \begin{figure}[h!]\label{fig:lorenz_curve}
         \centering
         \includegraphics[width=0.75\textwidth]{../images/typical_lorenz_curve.png}
         \caption{Типичная кривая Лоренца}
@@ -154,7 +155,7 @@
     \end{itemize}
 
     Так выглядит кумулятивный график распределения площади:
-    \begin{figure}\label{fig:cumulative_inequality_graph}
+    \begin{figure}[h!]\label{fig:cumulative_inequality_graph}
         \centering
         \includegraphics[width=0.75\textwidth]{../images/cumulative_inequality_graph.jpg}
         \caption{Кривая лоренца для зон}
@@ -162,7 +163,7 @@
 
     Нетрудно заметить, что ни в одной стране мира нет такого неравенства, как среди зон:
 
-    \begin{figure}\label{fig:gini_index_world}
+    \begin{figure}[h!]\label{fig:gini_index_world}
         \centering
         \includegraphics[width=0.75\textwidth]{../images/gini_index_world.jpg}
         \caption{Индекс Джини по странам мира}
@@ -184,7 +185,7 @@
         Пример того, как художник (\href{https://www.youtube.com/watch?v=VaXHtai2alU}{https://www.youtube.com/watch?v=VaXHtai2alU}) рисует картину по слоям:
 
 
-        \begin{figure}
+        \begin{figure}[h!]
             \centering
             \subfloat{\includegraphics[width=0.24\textwidth]{../images/painting_example_layer_0.png}}
             \subfloat{\includegraphics[width=0.24\textwidth]{../images/painting_example_layer_1.png}}
