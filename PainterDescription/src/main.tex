@@ -18,20 +18,24 @@
 
 % Kurale
 % New Standard Old
-
 \setdefaultlanguage{russian}
 \setmainfont[Ligatures=TeX]{Kurale}
 \newfontfamily\cyrillicfont{Kurale}
 
+% Author, date
 \title{Описание программной части робота-художника}
 \author{Латыпов Владимир Витальевич}
 \date{\today}
+
+% Graphics settings
+\graphicspath{../images/}
 
 % Document
 \begin{document}
     \maketitle
     \newpage
-
+    \tableofcontents
+    \newpage
 
     \section{Формулировка задачи}
 
@@ -60,6 +64,19 @@
     , повсеместно используемого при работе с изображениями, функция ошибки «наказывает» наложение мазков, а также
 
     \subsection{Растеризация мазков}\label{subsec:rasterization}
+    Имея мазок, заданный в виде трёх точек на плоскости, толщины и цвета, нужно уметь его отобразить его на «холсте», то есть в виде набора пикселей.
+    Это нужно, чтобы подсчитать функцию ошибки для заданного набора мазков.
+    Есть много способов произвести растеризацию.
+
+    Самый простой — для некоторого количества точек на кривой Безье провозим вертикальную линию: вверх на width и  вниз — тоже.
+    Это даёт высокую производительность и сносно выглядит на участках, близких к горизонтальным, но очень результат, полученный таким способом, очень далёк от реальности на вертикальных участках:
+    \begin{figure}[h!]
+        \centering
+        \includegraphics{stroke_vertical.png}
+        \caption{(Красным обозначены точки, задающие кривую)}
+        \label{fig:vertical_stroke}
+    \end{figure}
+
 
     // TODO: написать про разные формы, адаптации под видеокарту и т.д.
 
@@ -103,7 +120,7 @@
     Функционал по методам оптимизации реализован мной и вынесен в отдельную репозиторию: \href{https://github.com/donRumata03/PowerfulGA}{click}
     (там не только Генетический алгоритм, как можно было подумать из названия, но и симуляция отжига, градиентный спуск, метод Ньютона;
     многие другие алгоритмы планируются быть добавленными)
-    Более подробное описание в секции → \ref{sec:opimization_algorithms}
+    Более подробное описание в секции $\longrightarrow$ \ref{sec:opimization_algorithms}
 
     \section {Алгоритмы оптимизации}\label{sec:opimization_algorithms}
     \input{optimization_algorithms}
@@ -126,7 +143,7 @@
 
     \begin{figure}[h!]\label{fig:lorenz_curve}
         \centering
-        \includegraphics[width=0.75\textwidth]{../images/typical_lorenz_curve.png}
+        \includegraphics[width=0.75\textwidth]{typical_lorenz_curve.png}
         \caption{Типичная кривая Лоренца}
     \end{figure}
     Альтернативный способ посчитать коэффициент, использующийся в реализации:
@@ -148,7 +165,7 @@
     Так выглядит кумулятивный график распределения площади:
     \begin{figure}[h!]\label{fig:cumulative_inequality_graph}
         \centering
-        \includegraphics[width=0.75\textwidth]{../images/cumulative_inequality_graph.jpg}
+        \includegraphics[width=0.75\textwidth]{cumulative_inequality_graph.jpg}
         \caption{Кривая лоренца для зон}
     \end{figure}
 
@@ -156,7 +173,7 @@
 
     \begin{figure}[h!]\label{fig:gini_index_world}
         \centering
-        \includegraphics[width=0.75\textwidth]{../images/gini_index_world.jpg}
+        \includegraphics[width=0.75\textwidth]{gini_index_world.jpg}
         \caption{Индекс Джини по странам мира}
     \end{figure}
     Даже в ЮАР индекс Джини составляет 57.8\%.
@@ -178,10 +195,10 @@
 
         \begin{figure}[h!]
             \centering
-            \subfloat{\includegraphics[width=0.24\textwidth]{../images/painting_example_layer_0.png}}
-            \subfloat{\includegraphics[width=0.24\textwidth]{../images/painting_example_layer_1.png}}
-            \subfloat{\includegraphics[width=0.24\textwidth]{../images/painting_example_layer_2.png}}
-            \subfloat{\includegraphics[width=0.24\textwidth]{../images/painting_example_layer_3.png}}
+            \subfloat{\includegraphics[width=0.24\textwidth]{painting_example_layer_0.png}}
+            \subfloat{\includegraphics[width=0.24\textwidth]{painting_example_layer_1.png}}
+            \subfloat{\includegraphics[width=0.24\textwidth]{painting_example_layer_2.png}}
+            \subfloat{\includegraphics[width=0.24\textwidth]{painting_example_layer_3.png}}
             \caption{ Фон | Рельеф фона | Детализация заднего плана | Основные объекты}
             \label{fig:layered_painting}
         \end{figure}

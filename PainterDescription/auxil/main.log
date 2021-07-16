@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2021.7.13)  15 JUL 2021 21:31
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2021.7.13)  15 JUL 2021 23:10
 entering extended mode
 **./main.tex
 (main.tex
@@ -625,55 +625,55 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 LaTeX Font Warning: Font shape `TU/Kurale(1)/b/n' undefined
 (Font)              using `TU/Kurale(1)/m/n' instead on input line 36.
 
-[2]
-main.tex:84: Missing $ inserted.
+[2] [3]
+main.tex:95: Missing $ inserted.
 <inserted text> 
                 $
-l.84 ...жидающих потоков с помощью std::condition_
+l.95 ...жидающих потоков с помощью std::condition_
                                                   variable.
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-main.tex:85: LaTeX Error: Command \end{itemize} invalid in math mode.
+main.tex:96: LaTeX Error: Command \end{itemize} invalid in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.85     \end{itemize}
+l.96     \end{itemize}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-main.tex:85: LaTeX Error: Something's wrong--perhaps a missing \item.
+main.tex:96: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.85     \end{itemize}
+l.96     \end{itemize}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-main.tex:85: LaTeX Error: Something's wrong--perhaps a missing \item.
+main.tex:96: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.85     \end{itemize}
+l.96     \end{itemize}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-main.tex:85: Missing $ inserted.
+main.tex:96: Missing $ inserted.
 <inserted text> 
                 $
-l.85     \end{itemize}
+l.96     \end{itemize}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -681,38 +681,33 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-(optimization_algorithms.tex [3]
+Missing character: There is no → in font Kurale/OT:script=latn;language=dflt;!
+(optimization_algorithms.tex
 Overfull \hbox (0.13568pt too wide) in paragraph at lines 7--9
-\TU/Kurale(1)/m/n/10.95 механизмов), а при размножении новая особь наследует пр
+\TU/Kurale(1)/b/n/10.95 механизмов), а при размножении новая особь наследует пр
 изнаки каж-
  []
 
+[4]
 
 LaTeX Font Warning: Font shape `TU/Kurale(1)/m/it' undefined
 (Font)              using `TU/Kurale(1)/m/n' instead on input line 18.
 
-[4]
+[5]
 Overfull \hbox (4.59125pt too wide) in paragraph at lines 43--44
 []\TU/Kurale(1)/m/it/10.95 Если алгоритм подходит к концу, добавить лучший гено
 м из преды-
  []
 
-[5]
-
-LaTeX Warning: Reference `item:testing_system' on page 6 undefined on input lin
-e 60.
-
-)
+) [6]
 File: ../images/typical_lorenz_curve.png Graphic file (type bmp)
 <../images/typical_lorenz_curve.png>
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6]
 File: ../images/cumulative_inequality_graph.jpg Graphic file (type bmp)
 <../images/cumulative_inequality_graph.jpg>
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -722,9 +717,9 @@ File: ../images/gini_index_world.jpg Graphic file (type bmp)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [7] [8]
-Overfull \hbox (45.6608pt too wide) in paragraph at lines 157--158
-[]\TU/Kurale(1)/b/n/10.95 Пример того, как художник ([]https://www.youtube.com/
-watch?v=VaXHtai2alU[])
+Overfull \hbox (45.6608pt too wide) in paragraph at lines 176--177
+[]\TU/Kurale(1)/m/it/10.95 Пример того, как художник ([]https://www.youtube.com
+/watch?v=VaXHtai2alU[])
  []
 
 File: ../images/painting_example_layer_0.png Graphic file (type bmp)
@@ -735,29 +730,32 @@ File: ../images/painting_example_layer_2.png Graphic file (type bmp)
 <../images/painting_example_layer_2.png>
 File: ../images/painting_example_layer_3.png Graphic file (type bmp)
 <../images/painting_example_layer_3.png>
+[9]
 
 LaTeX Font Warning: Font shape `TU/Kurale(1)/b/it' undefined
-(Font)              using `TU/Kurale(1)/b/n' instead on input line 174.
+(Font)              using `TU/Kurale(1)/b/n' instead on input line 193.
 
 
-Overfull \hbox (6.6325pt too wide) in paragraph at lines 189--192
+Overfull \hbox (6.6325pt too wide) in paragraph at lines 208--211
 []\TU/Kurale(1)/b/it/10.95 Организовать систему тестирования различных алгоритм
 ов на раз-
  []
 
-[9]
-Overfull \hbox (1.19426pt too wide) in paragraph at lines 196--202
+
+Overfull \hbox (1.19426pt too wide) in paragraph at lines 215--221
 []\TU/Kurale(1)/b/it/10.95 Целесообразно сравнивать количество итераций, требую
 щееся ал-
  []
 
-
-Overfull \hbox (7.86768pt too wide) in paragraph at lines 211--215
+[10]
+Overfull \hbox (7.86768pt too wide) in paragraph at lines 230--234
 \TU/Kurale(1)/b/it/10.95 Illustrator. По заданному количеству цветов (и, следов
 ательно, уров-
  []
 
-[10]
+
+LaTeX Warning: Reference `' on page 11 undefined on input line 248.
+
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -792,16 +790,16 @@ braces):
 >  {russian/babelname}  =>  {russian}
 >  {russian/localnumeral}  =>  {russiannumerals}
 >  {russian/Localnumeral}  =>  {Russiannumerals}.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 228.
- [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 228.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
+[11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
  (D:/Projects\ITMO.STARS_texts\PainterDescription\auxil\main.aux
 LaTeX Info: Redefining \rmfamily on input line 20.
 LaTeX Info: Redefining \sffamily on input line 20.
 LaTeX Info: Redefining \ttfamily on input line 20.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 228.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 228.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 254.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 254.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -809,8 +807,8 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 2227B8CEA00F5D57D0014BB260C18628;697
-(rerunfilecheck)             After:  FE79F61E9B7636D42D7E11D0E838A38A;2345.
+(rerunfilecheck)             Before: FE79F61E9B7636D42D7E11D0E838A38A;2345
+(rerunfilecheck)             After:  F6401EBB4BE8DAB61353AC0583997F55;3320.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -820,13 +818,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 228.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 254.
  ) 
 Here is how much of TeX's memory you used:
- 14534 strings out of 414480
- 277300 string characters out of 2906353
- 619655 words of memory out of 3000000
- 31603 multiletter control sequences out of 15000+200000
+ 14541 strings out of 414480
+ 277387 string characters out of 2906353
+ 622126 words of memory out of 3000000
+ 31610 multiletter control sequences out of 15000+200000
  540126 words of font info for 62 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  67i,18n,103p,934b,490s stack positions out of 5000i,500n,10000p,200000b,50000s
