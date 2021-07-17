@@ -6,9 +6,32 @@
 Однако, чтобы алгоритм оптимизации работал с ними, наборы мазков должны быть представлены в виде векторов в $\mathbb{R}^n$.
 Формат данных в «геноме» таков:
 
-% TODO: Вставить схему
+\begin{tikzpicture}[scale=1]
+    \newcommand{\drawcell}[3][18]{
+        \draw +(#3 - 0.5, 0.4) node[font=\fontsize{#1}{0}\selectfont] {#2};
+        \draw[thick] +(#3, 0) — +(#3, 1);
+    }
+    \draw[thick] (0,0) rectangle +(12,1);
+    \drawcell{${p_0}_x$}{1};
+    \drawcell{${p_0}_y$}{2};
+    \drawcell{${p_1}_x$}{3};
+    \drawcell{\ldots}{4};
+    \drawcell[12]{width}{5};
+    \draw [decorate,decoration={brace,amplitude=10pt}] (0,1) - (5, 1);
+    \draw (2.5, 2) node [font=\fontsize{20}{0}\selectfont] {Stroke 1};
 
-, где $p_{n_x} ~&&~ p_{n_y}, n \in \{ 0, 1, 2 \}$ — координаты направляющей точки под номером n (из всего 3 у каждого мазка),
+    \drawcell{${p_0}_x$}{6};
+    \drawcell{${p_0}_y$}{7};
+    \drawcell{${p_1}_x$}{8};
+    \drawcell{\ldots}{9};
+    \drawcell[12]{width}{10};
+    \draw [decorate,decoration={brace,amplitude=10pt}] (5,1) - (10, 1);
+    \draw (7.5, 2) node [font=\fontsize{20}{0}\selectfont] {Stroke 2};
+    \drawcell{\ldots}{11};
+
+\end{tikzpicture}
+
+, где $p_{n_x} ~\&\&~ p_{n_y}, n \in \{ 0, 1, 2 \}$ — координаты направляющей точки под номером n (из всего 3 у каждого мазка),
 а \textit{width}  — толщина мазка.
 
 Здесь нет параметра  «цвет».
