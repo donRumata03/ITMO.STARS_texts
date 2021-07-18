@@ -139,11 +139,13 @@ MSE — универасльная мертрика для схожести из
 так как для каждой из цветовых компонент соответствующая часть MSE — сумма квадратичных функций (для каждого пикселя),
 причём «с ветвями вверх» (так как на бесконечностях она уходит в $+ \infty$), которая имеет одну точку с нулевой производной — как раз в среднем арифметическом:
 
-\begin{multiline}
-    MSE_c(value_c) = \sum_{pixel \in {pixels}} \bigg(value_c - pixel_c\bigg)^2 \\
-    \Rightarrow \\
-    MSE_c'(value_c) = 2 \cdot \left( \lVert pixels \lVert \cdot value_c - \sum_{pixel \in {pixels}}  pixel_c \right)
-\end{multiline}
+\begin{equation}
+    \begin{gathered}
+        MSE_c(value_c) = \sum_{pixel \in {pixels}} \bigg(value_c - pixel_c\bigg)^2 \\
+        \Rightarrow \\
+        MSE_c'(value_c) = 2 \cdot \left( \lVert pixels \lVert \cdot value_c - \sum_{pixel \in {pixels}}  pixel_c \right)
+    \end{gathered}
+\end{equation}
 , где $pixel_c$ — значение канала $c$ пикселя $pixel$.
 
 То есть у MSE достигается производная ноль в этой точке:
@@ -157,7 +159,7 @@ MSE — универасльная мертрика для схожести из
 
 \subsubsection{Фиксированный цвет в зонах}
 Во-вторых, при делении на зоны все пиксели, относящиеся к данной зоне, имеют строго заданный цвет.
-Подробнее об этом читать в секции \ref{subsec:posterisation_and_zoning}.
+Подробнее об этом читать в секции \ref{subsec:applying_zoning}.
 
 
 \subsection{Разделение картины на зоны}\label{subsec:applying_zoning}
