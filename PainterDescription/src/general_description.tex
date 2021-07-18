@@ -1,5 +1,6 @@
 Таким образом, решено было использовать эвристические алгоритмы оптимизации:
 \href{https://en.wikipedia.org/wiki/Simulated_annealing}{Генетический алгоритм} и \href{https://en.wikipedia.org/wiki/Simulated_annealing}{Симуляция отжига}.
+Подробное описание алгоритмов, моей их реализации и улучшений представлено в секции \ref{sec:opimization_algorithms}.
 
 \subsection{Представление «решения»  — набора мазков}
 Программа работает с последовательностями мазков, находя лучшую из них.
@@ -138,11 +139,11 @@ MSE — универасльная мертрика для схожести из
 так как для каждой из цветовых компонент соответствующая часть MSE — сумма квадратичных функций (для каждого пикселя),
 причём «с ветвями вверх» (так как на бесконечностях она уходит в $+ \infty$), которая имеет одну точку с нулевой производной — как раз в среднем арифметическом:
 
-\begin{equation}
+\begin{multiline}
     MSE_c(value_c) = \sum_{pixel \in {pixels}} \bigg(value_c - pixel_c\bigg)^2 \\
-    \Longrightarrow
+    \Rightarrow \\
     MSE_c'(value_c) = 2 \cdot \left( \lVert pixels \lVert \cdot value_c - \sum_{pixel \in {pixels}}  pixel_c \right)
-\end{equation}
+\end{multiline}
 , где $pixel_c$ — значение канала $c$ пикселя $pixel$.
 
 То есть у MSE достигается производная ноль в этой точке:
@@ -160,3 +161,12 @@ MSE — универасльная мертрика для схожести из
 
 
 \subsection{Разделение картины на зоны}\label{subsec:applying_zoning}
+
+
+
+\subsection{Сортировка мазков перед выпуском}\label{subsec:stroke_sorting}
+
+\subsubsection{Сортировка по территориальному признаку}
+
+\subsubsection{Оптимальная расстановка цветов}
+
