@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2021.7.13)  18 JUL 2021 15:53
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2021.7.13)  25 JUL 2021 17:21
 entering extended mode
 **./main.tex
 (main.tex
@@ -720,18 +720,9 @@ LaTeX Font Warning: Font shape `TU/Kurale(1)/m/it' undefined
 \openout4 = `main.toc'.
 
  [3] (general_description.tex
-
-LaTeX Warning: Reference `sec:opimization_algorithms' on page 4 undefined on in
-put line 3.
-
 File: ../images/genome_contents_table.pdf Graphic file (type pdf)
 <use ../images/genome_contents_table.pdf>
-[4]
-
-LaTeX Warning: Reference `subsec:color_in_genome' on page 5 undefined on input 
-line 22.
-
-
+ [4]
 Overfull \hbox (9.38893pt too wide) detected at line 34
 []\OML/cmm/m/it/10.95 MSE \OT1/cmr/m/n/10.95 = [] \OMS/cmsy/m/n/10.95 ^^A [] []
 
@@ -767,36 +758,23 @@ Overfull \hbox (4.37265pt too wide) in paragraph at lines 116--118
 часть пик-
  []
 
-[8]
+[8] [9] [10]
+Overfull \hbox (1.08495pt too wide) in paragraph at lines 166--170
+[]\TU/Kurale(1)/m/it/10.95 Известно, что время оптимизации до заданного качеств
+а очень силь-
+ []
 
-LaTeX Warning: Reference `subsec:move_graphics_to_videocard' on page 9 undefine
-d on input line 125.
-
-[9] [10]
-
-LaTeX Warning: Reference `subsec:applying_zoning' on page 11 undefined on input
- line 162.
-
-) (tecnical_aspects.tex [11]
+) (tecnical_aspects.tex [11] [12]
 Overfull \hbox (0.52774pt too wide) in paragraph at lines 28--29
 []\TU/Kurale(1)/m/it/10.95 Функционал для работы с многопоточностью, в том числ
 е — thread
  []
-
-[12]
-
-LaTeX Warning: Reference `sec:opimization_algorithms' on page 13 undefined on i
-nput line 40.
 
 ) (optimization_algorithms.tex
 Overfull \hbox (0.13568pt too wide) in paragraph at lines 7--9
 \TU/Kurale(1)/m/it/10.95 механизмов), а при размножении новая особь наследует п
 ризнаки каж-
  []
-
-
-LaTeX Warning: Reference `subsubsec:hazing' on page 13 undefined on input line 
-15.
 
 [13] [14]
 Overfull \hbox (4.59125pt too wide) in paragraph at lines 45--46
@@ -810,19 +788,17 @@ Overfull \hbox (0.99811pt too wide) in paragraph at lines 50--53
  мною, бо́ль-
  []
 
-
-LaTeX Warning: Reference `itm:testing_system' on page 15 undefined on input lin
-e 62.
-
-) (observations.tex [15]
+[15]) (observations.tex
 File: ../images/typical_lorenz_curve.png Graphic file (type bmp)
 <../images/typical_lorenz_curve.png>
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[16]
 File: ../images/cumulative_inequality_graph.jpg Graphic file (type bmp)
 <../images/cumulative_inequality_graph.jpg>
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -831,17 +807,18 @@ File: ../images/gini_index_world.jpg Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (subsequent_development.tex [16] [17]
+) (subsequent_development.tex
 
 LaTeX Font Warning: Font shape `TU/Kurale(1)/b/it' undefined
 (Font)              using `TU/Kurale(1)/b/n' instead on input line 4.
 
-
+[17]
 Overfull \hbox (35.28581pt too wide) in paragraph at lines 14--15
 []\TU/Kurale(1)/m/it/10.95 Пример того, как художник ([]https://www.youtube.com
 /watch?v=VaXHtai2alU[])
  []
 
+[18]
 File: ../images/painting_example_layer_0.png Graphic file (type bmp)
 <../images/painting_example_layer_0.png>
 File: ../images/painting_example_layer_1.png Graphic file (type bmp)
@@ -850,23 +827,7 @@ File: ../images/painting_example_layer_2.png Graphic file (type bmp)
 <../images/painting_example_layer_2.png>
 File: ../images/painting_example_layer_3.png Graphic file (type bmp)
 <../images/painting_example_layer_3.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[18] [19]
-
-LaTeX Warning: Reference `subsubsec:hazing' on page 20 undefined on input line 
-67.
-
-
-LaTeX Warning: Reference `subsubsec:hazing' on page 20 undefined on input line 
-70.
-
-
-LaTeX Warning: Reference `subsubsec:hazing' on page 20 undefined on input line 
-76.
-
-[20]
+ [19] [20]
 
 subsequent_development.tex:85: Package polyglossia Error: The current latin fon
 t Kurale(1) does not contain the "Cyrillic" script!
@@ -885,59 +846,60 @@ Pretend that you're Hercule Poirot: Examine all clues,
 and deduce the truth by order and method.
 
 
-Overfull \hbox (9.06184pt too wide) in paragraph at lines 84--86
-\TU/Kurale(1)/b/it/10.95 выпуклой оболочки (алгортм нахождения: []$[][][][][] [
-] [] [] [][][][][] [] [][][][] [] [][] [] [][][][] []
+Overfull \hbox (10.95024pt too wide) in paragraph at lines 84--89
+\TU/Kurale(1)/b/it/10.95 ства поиска. (алгоритм нахождения МВО в n-мерном прост
+ранстве: []$[][][][][] []
  []
 
 
-Overfull \hbox (13.66867pt too wide) in paragraph at lines 84--86
-[][][][][] [] [][][] [] [][][][][] [] [][][] [] [][] [] [][] [] [][] [] [][] []
- [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [
-] [][] []
+Overfull \hbox (13.66867pt too wide) in paragraph at lines 84--89
+[] [] [][][][][] [] [][][][] [] [][] [] [][][][] [] [][][][][] [] [][][] [] [][
+][][][] [] [][][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] []
+[] []
  []
 
 
-Overfull \hbox (14.16867pt too wide) in paragraph at lines 84--86
-[][][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] 
-[] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][][] [] [][] [] [][][] [] 
-[][] [] [][] []
- []
-
-
-Overfull \hbox (7.91992pt too wide) in paragraph at lines 84--86
-[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
- [][][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][]
+Overfull \hbox (7.91992pt too wide) in paragraph at lines 84--89
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][][] [] [][] [] [][] 
+[] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][]
  [] [][] []
  []
 
 
-LaTeX Warning: Reference `subsec:inequality' on page 21 undefined on input line
- 98.
+Overfull \hbox (14.16867pt too wide) in paragraph at lines 84--89
+[][] [] [][] [] [][][] [] [][] [] [][][] [] [][] [] [][] [] [][] [] [][] [] [][
+] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][][] [] [][] [] 
+[][] [] [][] []
+ []
 
 
-Overfull \hbox (2.82327pt too wide) in paragraph at lines 104--109
+Overfull \hbox (8.08746pt too wide) in paragraph at lines 84--89
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][]$[
+]\TU/Kurale(1)/b/it/10.95 ) Про-
+ []
+
+Missing character: There is no ӹ in font Kurale/OT:script=latn;language=dflt;!
+Missing character: There is no ӝ in font Kurale/OT:script=latn;language=dflt;!
+
+Overfull \hbox (17.85437pt too wide) in paragraph at lines 90--93
+[]\TU/Kurale(1)/b/it/10.95 Варианты исправить этот недочёт такие: либо как-то о
+тбросить сколько-
+ []
+
+[21]
+Overfull \hbox (2.82327pt too wide) in paragraph at lines 131--136
 \TU/Kurale(1)/b/it/10.95 можно распараллелить вычисление для целой популяции), 
 причём толь-
  []
 
-
-Overfull \hbox (0.90198pt too wide) in paragraph at lines 113--115
+[22]
+Overfull \hbox (0.90198pt too wide) in paragraph at lines 140--142
 []\TU/Kurale(1)/b/it/10.95 Если использовать видеокарту для распараллеливания в
 ычислений,
  []
 
-[21]
-
-LaTeX Warning: Reference `subsec:rasterization' on page 22 undefined on input l
-ine 136.
-
-[22]
-
-LaTeX Warning: Reference `subsec:rasterization' on page 23 undefined on input l
-ine 147.
-
-)
+[23])
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -973,7 +935,7 @@ braces):
 >  {russian/localnumeral}  =>  {russiannumerals}
 >  {russian/Localnumeral}  =>  {Russiannumerals}.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
- [23]
+ [24]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
  (D:/Projects\ITMO.STARS_texts\PainterDescription\auxil\main.aux
 LaTeX Info: Redefining \rmfamily on input line 21.
@@ -982,20 +944,11 @@ LaTeX Info: Redefining \ttfamily on input line 21.
 )
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 70.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: A19E0790F881452C950C0C16AAE4F182;9960.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  A19E0790F881452C950C0C16AAE4F182;9960.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1003,13 +956,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
- 16434 strings out of 414480
- 305018 string characters out of 2906353
- 646321 words of memory out of 3000000
- 33441 multiletter control sequences out of 15000+200000
+ 16445 strings out of 414480
+ 305155 string characters out of 2906353
+ 658907 words of memory out of 3000000
+ 33452 multiletter control sequences out of 15000+200000
  541777 words of font info for 71 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  67i,18n,103p,934b,518s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on D:/Projects\ITMO.STARS_texts\PainterDescription\out\main.pdf 
-(23 pages).
+(24 pages).
