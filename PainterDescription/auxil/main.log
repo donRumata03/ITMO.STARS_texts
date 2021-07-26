@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2021.7.13)  26 JUL 2021 21:45
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2021.7.13)  26 JUL 2021 22:33
 entering extended mode
 **./main.tex
 (main.tex
@@ -725,7 +725,7 @@ LaTeX Info: Redefining \ttfamily on input line 1.
 
 
 LaTeX Font Warning: Font shape `TU/Kurale(1)/m/it' undefined
-(Font)              using `TU/Kurale(1)/m/n' instead on input line 31.
+(Font)              using `TU/Kurale(1)/m/n' instead on input line 34.
 
 [2])
 \tf@toc=\write4
@@ -777,36 +777,28 @@ Overfull \hbox (1.08495pt too wide) in paragraph at lines 168--171
  []
 
 [11]
-Runaway argument?
-{Пояснение: Применительно к данной зад\ETC.
-general_description.tex:188: Paragraph ended before \@textcolor was complete.
-<to be read again> 
-                   \par 
-l.188 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+Overfull \hbox (0.68794pt too wide) in paragraph at lines 192--193
+[][]\TU/Kurale(1)/m/it/10.95 Пояснение: Применительно к данной задаче суперадди
+тивность вре-
+ []
 
-general_description.tex:194: Too many }'s.
-l.194 ...ом количестве изменений за одну мутацию.}
-                                                  
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-) (tecnical_aspects.tex [12]
+[12]
+Missing character: There is no ↡ in font Kurale/OT:script=latn;language=dflt;!
+Missing character: There is no ↡ in font Kurale/OT:script=latn;language=dflt;!
+Missing character: There is no ↡ in font Kurale/OT:script=latn;language=dflt;!
+) (tecnical_aspects.tex [13] [14]
 Overfull \hbox (0.52774pt too wide) in paragraph at lines 28--29
 []\TU/Kurale(1)/m/it/10.95 Функционал для работы с многопоточностью, в том числ
 е — thread
  []
 
-[13]) (optimization_algorithms.tex
+) (optimization_algorithms.tex
 Overfull \hbox (0.6844pt too wide) in paragraph at lines 2--3
 []\TU/Kurale(1)/m/it/10.95 Идея работы генетического алгоритма заимствована у п
 рироды: так-
  []
 
-[14] [15]
+[15] [16]
 Overfull \hbox (5.02031pt too wide) in paragraph at lines 54--55
 []\TU/Kurale(1)/m/it/10.95 Возможно, результаты скрещивания одновременно более 
 двух
@@ -824,37 +816,26 @@ Overfull \hbox (0.99811pt too wide) in paragraph at lines 66--69
  мною, бо́ль-
  []
 
-[16]) (observations.tex
+[17]) (observations.tex
 File: ../images/typical_lorenz_curve.png Graphic file (type bmp)
 <../images/typical_lorenz_curve.png>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[17]
+ [18]
 File: ../images/cumulative_inequality_graph.jpg Graphic file (type bmp)
 <../images/cumulative_inequality_graph.jpg>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+ [19]
 File: ../images/gini_index_world.jpg Graphic file (type bmp)
 <../images/gini_index_world.jpg>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 ) (subsequent_development.tex
 
 LaTeX Font Warning: Font shape `TU/Kurale(1)/b/it' undefined
 (Font)              using `TU/Kurale(1)/b/n' instead on input line 4.
 
-[18]
+[20]
 Overfull \hbox (35.28581pt too wide) in paragraph at lines 14--15
 []\TU/Kurale(1)/m/it/10.95 Пример того, как художник ([]https://www.youtube.com
 /watch?v=VaXHtai2alU[])
  []
 
-[19]
 File: ../images/painting_example_layer_0.png Graphic file (type bmp)
 <../images/painting_example_layer_0.png>
 File: ../images/painting_example_layer_1.png Graphic file (type bmp)
@@ -863,7 +844,7 @@ File: ../images/painting_example_layer_2.png Graphic file (type bmp)
 <../images/painting_example_layer_2.png>
 File: ../images/painting_example_layer_3.png Graphic file (type bmp)
 <../images/painting_example_layer_3.png>
- [20]
+[21]
 subsequent_development.tex:66: Missing $ inserted.
 <inserted text> 
                 $
@@ -890,6 +871,7 @@ Test$[]\OML/cmm/m/it/10.95 unctions[]or[]ptimization$[]\TU/Kurale(1)/b/it/10.95
  )
  []
 
+[22]
 subsequent_development.tex:71: Missing $ inserted.
 <inserted text> 
                 $
@@ -917,7 +899,6 @@ perelite[]it[]ow; epoch[]ow; mutation[]ercent[]igma; target[]ene[]utation[]umbe
 r::$ 
  []
 
-[21]
 
 subsequent_development.tex:93: Package polyglossia Error: The current latin fon
 t Kurale(1) does not contain the "Cyrillic" script!
@@ -969,6 +950,7 @@ Overfull \hbox (8.08746pt too wide) in paragraph at lines 92--97
 ]\TU/Kurale(1)/b/it/10.95 ) Про-
  []
 
+[23]
 Missing character: There is no ӹ in font Kurale/OT:script=latn;language=dflt;!
 Missing character: There is no ӝ in font Kurale/OT:script=latn;language=dflt;!
 
@@ -977,7 +959,7 @@ Overfull \hbox (17.85437pt too wide) in paragraph at lines 98--101
 тбросить сколько-
  []
 
-[22] [23]
+[24]
 Overfull \hbox (2.82327pt too wide) in paragraph at lines 139--144
 \TU/Kurale(1)/b/it/10.95 можно распараллелить вычисление для целой популяции), 
 причём толь-
@@ -989,7 +971,7 @@ Overfull \hbox (0.90198pt too wide) in paragraph at lines 148--150
 ычислений,
  []
 
-[24])
+[25])
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1025,7 +1007,7 @@ braces):
 >  {russian/localnumeral}  =>  {russiannumerals}
 >  {russian/Localnumeral}  =>  {Russiannumerals}.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 71.
- [25]
+ [26]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 71.
  (D:/Projects\ITMO.STARS_texts\PainterDescription\auxil\main.aux
 LaTeX Info: Redefining \rmfamily on input line 21.
@@ -1034,15 +1016,9 @@ LaTeX Info: Redefining \ttfamily on input line 21.
 )
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 71.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 71.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 46FCF9E62DEDBB4FFCE9CD8B127EBDA7;10692.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: A19E0790F881452C950C0C16AAE4F182;9960
-(rerunfilecheck)             After:  B59836609F6A77FA3556EA1A6A982579;10440.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1053,12 +1029,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 71.
  ) 
 Here is how much of TeX's memory you used:
  16523 strings out of 414480
- 305894 string characters out of 2906353
- 658988 words of memory out of 3000000
+ 305888 string characters out of 2906353
+ 660805 words of memory out of 3000000
  33526 multiletter control sequences out of 15000+200000
  541883 words of font info for 72 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  67i,18n,103p,934b,518s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on D:/Projects\ITMO.STARS_texts\PainterDescription\out\main.pdf 
-(25 pages).
+(26 pages).
