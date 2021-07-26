@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2021.7.13)  26 JUL 2021 22:33
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2021.7.13)  26 JUL 2021 22:39
 entering extended mode
 **./main.tex
 (main.tex
@@ -732,9 +732,18 @@ LaTeX Font Warning: Font shape `TU/Kurale(1)/m/it' undefined
 \openout4 = `main.toc'.
 
  [3] (general_description.tex
+
+LaTeX Warning: Reference `sec:opimization_algorithms' on page 4 undefined on in
+put line 3.
+
 File: ../images/genome_contents_table.pdf Graphic file (type pdf)
 <use ../images/genome_contents_table.pdf>
- [4]
+[4]
+
+LaTeX Warning: Reference `subsec:color_in_genome' on page 5 undefined on input 
+line 22.
+
+
 Overfull \hbox (9.38893pt too wide) detected at line 34
 []\OML/cmm/m/it/10.95 MSE \OT1/cmr/m/n/10.95 = [] \OMS/cmsy/m/n/10.95 ^^A [] []
 
@@ -770,7 +779,17 @@ Overfull \hbox (4.37265pt too wide) in paragraph at lines 116--118
 часть пик-
  []
 
-[8] [9] [10]
+[8]
+
+LaTeX Warning: Reference `subsec:move_graphics_to_videocard' on page 9 undefine
+d on input line 125.
+
+[9] [10]
+
+LaTeX Warning: Reference `subsec:applying_zoning' on page 11 undefined on input
+ line 162.
+
+
 Overfull \hbox (1.08495pt too wide) in paragraph at lines 168--171
 []\TU/Kurale(1)/m/it/10.95 Известно, что время оптимизации до заданного качеств
 а очень силь-
@@ -782,15 +801,15 @@ Overfull \hbox (0.68794pt too wide) in paragraph at lines 192--193
 тивность вре-
  []
 
-[12]
-Missing character: There is no ↡ in font Kurale/OT:script=latn;language=dflt;!
-Missing character: There is no ↡ in font Kurale/OT:script=latn;language=dflt;!
-Missing character: There is no ↡ in font Kurale/OT:script=latn;language=dflt;!
-) (tecnical_aspects.tex [13] [14]
+[12]) (tecnical_aspects.tex [13] [14]
 Overfull \hbox (0.52774pt too wide) in paragraph at lines 28--29
 []\TU/Kurale(1)/m/it/10.95 Функционал для работы с многопоточностью, в том числ
 е — thread
  []
+
+
+LaTeX Warning: Reference `sec:opimization_algorithms' on page 15 undefined on i
+nput line 40.
 
 ) (optimization_algorithms.tex
 Overfull \hbox (0.6844pt too wide) in paragraph at lines 2--3
@@ -798,7 +817,12 @@ Overfull \hbox (0.6844pt too wide) in paragraph at lines 2--3
 рироды: так-
  []
 
-[15] [16]
+[15]
+
+LaTeX Warning: Reference `subsubsec:hazing' on page 16 undefined on input line 
+17.
+
+[16]
 Overfull \hbox (5.02031pt too wide) in paragraph at lines 54--55
 []\TU/Kurale(1)/m/it/10.95 Возможно, результаты скрещивания одновременно более 
 двух
@@ -816,7 +840,12 @@ Overfull \hbox (0.99811pt too wide) in paragraph at lines 66--69
  мною, бо́ль-
  []
 
-[17]) (observations.tex
+[17]
+
+LaTeX Warning: Reference `itm:testing_system' on page 18 undefined on input lin
+e 81.
+
+) (observations.tex
 File: ../images/typical_lorenz_curve.png Graphic file (type bmp)
 <../images/typical_lorenz_curve.png>
  [18]
@@ -900,6 +929,18 @@ r::$
  []
 
 
+LaTeX Warning: Reference `subsubsec:hazing' on page 23 undefined on input line 
+75.
+
+
+LaTeX Warning: Reference `subsubsec:hazing' on page 23 undefined on input line 
+78.
+
+
+LaTeX Warning: Reference `subsubsec:hazing' on page 23 undefined on input line 
+84.
+
+
 subsequent_development.tex:93: Package polyglossia Error: The current latin fon
 t Kurale(1) does not contain the "Cyrillic" script!
 (polyglossia)                Please define \cyrillicfont with \newfontfamily co
@@ -960,6 +1001,11 @@ Overfull \hbox (17.85437pt too wide) in paragraph at lines 98--101
  []
 
 [24]
+
+LaTeX Warning: Reference `subsec:inequality' on page 25 undefined on input line
+ 133.
+
+
 Overfull \hbox (2.82327pt too wide) in paragraph at lines 139--144
 \TU/Kurale(1)/b/it/10.95 можно распараллелить вычисление для целой популяции), 
 причём толь-
@@ -971,7 +1017,16 @@ Overfull \hbox (0.90198pt too wide) in paragraph at lines 148--150
 ычислений,
  []
 
-[25])
+[25]
+
+LaTeX Warning: Reference `subsec:rasterization' on page 26 undefined on input l
+ine 171.
+
+
+LaTeX Warning: Reference `subsec:rasterization' on page 26 undefined on input l
+ine 182.
+
+)
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1016,11 +1071,20 @@ LaTeX Info: Redefining \ttfamily on input line 21.
 )
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 71.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 71.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 46FCF9E62DEDBB4FFCE9CD8B127EBDA7;10692.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  46FCF9E62DEDBB4FFCE9CD8B127EBDA7;10692.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1028,10 +1092,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 71.
  ) 
 Here is how much of TeX's memory you used:
- 16523 strings out of 414480
- 305888 string characters out of 2906353
- 660805 words of memory out of 3000000
- 33526 multiletter control sequences out of 15000+200000
+ 16511 strings out of 414480
+ 305735 string characters out of 2906353
+ 648402 words of memory out of 3000000
+ 33514 multiletter control sequences out of 15000+200000
  541883 words of font info for 72 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  67i,18n,103p,934b,518s stack positions out of 5000i,500n,10000p,200000b,50000s
