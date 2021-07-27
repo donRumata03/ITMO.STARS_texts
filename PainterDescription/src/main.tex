@@ -18,6 +18,7 @@
 \usepackage{adjustbox}
 \usepackage[normalem]{ulem}
 \usepackage{amsfonts}
+\usepackage{placeins}
 
 % Language and Font settings
 
@@ -53,7 +54,58 @@
     Но на вход подаются рисунки не в векторном, а в растровом формате.
     Найти такую комбинацию мазков, которая бы лучше всего соответствовала картине/изображению — задача нетривиальная, имеющая множество решений.
 
-    Конечно же, я выбрал решать задачу самостоятельно, а не использовать готовые библиотеки.
+    Люди уже решали похожие задачи, однако уделяли незаслуженно мало внимания вопросам оптимизации,
+    и потому качество подбора мазков оставляло желать лучшего, например:
+
+    \subsection{Аналог 1}
+    A robotic system for interpreting images into painted artwork (by Carlos Aguilar \&\& Hod Lipson)
+
+    \begin{figure}[h!]
+        \centering
+        \adjincludegraphics[width=0.4\textwidth]{../images/concurents/initial_image_hod.png}
+        \caption{Изначальное изображение}
+        \label{fig:initial_hod}
+    \end{figure}
+
+    \begin{figure}[h!]
+        \centering
+        \adjincludegraphics[width=0.4\textwidth]{../images/concurents/result_hod.png}
+        \caption{Изображение, переведённое в мазки}
+        \label{fig:result_hod}
+    \end{figure}
+
+    \FloatBarrier
+
+    \subsection{Аналог 2}
+    Artistic Style in Robotic Painting (by Ardavan Bidgoli, Manuel Ladron De Guevara, Cinnie Hsiung, Jean Oh, Eunsu Kang)
+
+    \begin{figure}[h!]
+        \centering
+        \adjincludegraphics[width=0.4\textwidth]{../images/concurents/bidgoli_initial_image.jpg}
+        \caption{Изображение, переведённое в мазки}
+        \label{fig:initial_bidgoli}
+    \end{figure}
+
+    \begin{figure}[h!]
+        \centering
+        \adjincludegraphics[width=0.4\textwidth]{../images/concurents/bidgoli_result.png}
+        \caption{Изображение, переведённое в мазки}
+        \label{fig:result_bidgoli}
+    \end{figure}
+
+    \FloatBarrier
+
+
+
+    % https://github.com/Ardibid/ArtisticStyleRoboticPainting
+    % A robotic system for interpreting images into painted artwork Carlos Aguilar, Hod Lipson
+    % Конечно же, я выбрал решать задачу самостоятельно, а не использовать готовые библиотеки.
+
+    Использовать стороннюю библиотеку для оптимизации не целесообразно,
+    так как это существенно сужает пространство для манёвра и не позволяет
+    углубиться в эту тему.
+
+    Поэтому для этого использовалась библиотека, написанная мной (см. подробнее в ~\ref{sec:tecnical}).
 
     \section{Описание программы в общих чертах}\label{sec:general_description}
     \input{general_description}
