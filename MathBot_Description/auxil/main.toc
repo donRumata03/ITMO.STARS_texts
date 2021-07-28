@@ -1,12 +1,23 @@
 \selectlanguage *{russian}
 \contentsline {section}{\numberline {1}Формулировка задачи}{3}{section.1}%
 \contentsline {section}{\numberline {2}Обзор}{3}{section.2}%
-\contentsline {section}{\numberline {3}Технические подробности}{5}{section.3}%
+\contentsline {section}{\numberline {3}Технические подробности}{4}{section.3}%
 \contentsline {section}{\numberline {4}Описание алгоритма в общих чертах}{5}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Разбор выражений}{5}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Дерево алгоритмов оптимизации}{5}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Идея}{5}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Схема дерева}{6}{subsubsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}Распределение вычислительного ресурса}{8}{subsubsection.4.2.3}%
-\contentsline {section}{\numberline {5}Модификации в ГА}{9}{section.5}%
-\contentsline {section}{\numberline {6}Дальнейшее развитие}{11}{section.6}%
+\contentsline {subsubsection}{\numberline {4.1.1}Вычисление производной}{5}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Оптимизация вычислений}{6}{subsubsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.2}Дерево алгоритмов оптимизации}{6}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Идея}{6}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Схема дерева}{7}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Распределение вычислительного ресурса}{10}{subsubsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.3}Решение уравнений и построение графиков}{11}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Модификации в ГА}{11}{section.5}%
+\contentsline {section}{\numberline {6}Тестирование}{13}{section.6}%
+\contentsline {section}{\numberline {7}Дальнейшее развитие}{14}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Дополнительные алгоритмы оптимизации}{14}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Внедрение аналитических методов}{14}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Решение систем уравнений}{14}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Рендеринг формул в \LaTeX }{14}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Построение многомерных графиков}{14}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Нахождение параметров функции заданного вида по точкам}{15}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Негладкая оптимизация}{15}{subsection.7.7}%
