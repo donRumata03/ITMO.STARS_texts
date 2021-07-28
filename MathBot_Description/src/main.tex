@@ -130,7 +130,7 @@
     особенно остро встаёт вопрос о распределении этих вычислительных ресурсов.
 
 
-    \begin{figure}[h!]
+    \begin{figure}[h]
         \centering
         \adjincludegraphics[width=\textwidth, clip, trim={0.0\width} {0.35\height} {0.0\width} {0.0\height}]{OptTree_scheme.pdf}
         \caption{Схема дерева оптимизации}
@@ -170,7 +170,45 @@
     Важно оценивать не только минимальное, или только максимальное, или только некое среднее (иначе можно упустить важную информацию
     о недостатках или достоинствах того или иного $epoch\_pow$).
 
-    Поэтому для комплексной оценки я посчитал «нечёткие» верхнюю и нижнюю границы для значений .
+    Поэтому для комплексной оценки я посчитал «нечёткие» верхнюю и нижнюю границы множества значений fitness-а для нескольких попыток запуска.
+    Под нечёткой нижней границей понимается такое число, которое бы оценило «почти худший случай работы алгоритма».
+    С верхней границей — аналогично (почти лучший).
+
+    Для их оценки я решил использовать вариацию среднего Колмогорова:
+    \begin{equation}
+        M(x_{1},\ldots ,x_{n})=\varphi ^{-1}\left({\frac {1}{n}}\sum _{k=1}^{n}\varphi (x_{k})\right)
+    \end{equation}
+    , где (в моём случае):
+
+    для нижней границы $\varphi(x) = x^{-1.5}$ (это повышает чувствительность к малым значениям),
+    для верхней границы $\varphi(x) = x^{2.5}$ (это повышает чувствительность к большим значениям).
+
+    Результаты таковы:
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.75\textwidth]{exploring_optimal_epoch_pow_1000_iterations.png}
+        \caption{График для 1'000 вычислений}
+        \label{fig:epoch-pow-1000}
+    \end{figure}
+    \FloatBarrier
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.75\textwidth]{exploring_optimal_epoch_pow_5000_iterations.png}
+        \caption{График для 5'000 вычислений}
+        \label{fig:epoch-pow-5000}
+    \end{figure}
+    \FloatBarrier
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.75\textwidth]{exploring_optimal_epoch_pow_100000_iterations.png}
+        \caption{График для 100'000 итераций}
+        \label{fig:epoch-pow-100000}
+    \end{figure}
+    \FloatBarrier
+
+    Проанализировав полученные данные, я пришёл к выводу, что лучше всего подходит значение $epoch\_pow \approx 0.45$
 
     \section{Дальнейшее развитие}\label{sec:subsequent-development}
     — Добавить ещё алгоритмы.

@@ -8,4 +8,4 @@
 \contentsline {subsubsection}{\numberline {4.2.1}Идея}{4}{subsubsection.4.2.1}%
 \contentsline {subsubsection}{\numberline {4.2.2}Распределение вычислительного ресурса}{4}{subsubsection.4.2.2}%
 \contentsline {section}{\numberline {5}Модификации в ГА}{5}{section.5}%
-\contentsline {section}{\numberline {6}Дальнейшее развитие}{6}{section.6}%
+\contentsline {section}{\numberline {6}Дальнейшее развитие}{8}{section.6}%
