@@ -43,6 +43,15 @@
     \tableofcontents
     \newpage
 
+    \section{«Abstract»}\label{sec:abstract}
+    Робот-художник — устройство, умеющее рисовать картины кистью на холсте.
+    Однако подготовка данных для него, а именно — представление картины в виде набора мазков, которые художник будет рисовать,
+    — не менее интересная задача, которой зачастую уделяют недостаточно времени и из-за этого теряют в качестве рисунка.
+    Именно этой задачей я занимался, и ей посвящено это описание.
+
+    Что же качается механической части, в данный момент уже было произведено несколько тестовых запусков.
+    Пример работы робота можно найти по ссылке \url{https://youtu.be/V8-YITMag_I}.
+
     \section{Формулировка задачи}\label{sec:formulating_task}
 
     Для того, чтобы робот-художник нарисовал что-либо, ему нужно предоставить данные в определённом формате, а именно — не набор пикселей,
@@ -57,7 +66,7 @@
     Люди уже решали похожие задачи, однако уделяли незаслуженно мало внимания вопросам оптимизации,
     и потому качество подбора мазков оставляло желать лучшего, например:
 
-    \subsection{Аналог №1}
+    \subsection{Аналог №1}\label{subsec:analog-1}
     A robotic system for interpreting images into painted artwork (by Carlos Aguilar \&\& Hod Lipson)
 
     \begin{figure}[h!]
@@ -76,7 +85,7 @@
 
     \FloatBarrier
 
-    \subsection{Аналог №2}
+    \subsection{Аналог №2}\label{subsec:analog-2}
     Artistic Style in Robotic Painting (by Ardavan Bidgoli, Manuel Ladron De Guevara, Cinnie Hsiung, Jean Oh, Eunsu Kang)
 
     \begin{figure}[h!]
@@ -96,6 +105,37 @@
     \FloatBarrier
 
 
+    Здесь мы видим, что количество мазков мало, из-за чего картина лишь отдалённо похожа на исходное изображение,
+    Но, как будет показано далее, качество оптимизации напрямую влияет на максимальное количество мазков, которое можно себе позволить,
+    причём при увеличении количества мазков время работы очень быстро растёт, что требует существенного роста качества оптимизации.
+
+    Исходя из отчётов об их работе именно это было сдерживающим фактором на пути количества мазков (а значит, и детализации).
+
+    Пример результатов работы моего алгоритма (генерируются примерно за 5 минут):
+
+    \begin{figure}[h!]
+        \centering
+        \adjincludegraphics[width=0.4\textwidth]{../images/my_results/van-gogh.jpg}
+        \caption{Изначальное изображение (автопортрет Ван Гога)}
+        \label{fig:van-gog-original}
+    \end{figure}
+    \FloatBarrier
+
+    \begin{figure}[h!]
+        \centering
+        \adjincludegraphics[width=0.4\textwidth]{../images/my_results/van-gogh-wide.jpg}
+        \caption{Больший размер мазков}
+        \label{fig:my-van-gog-wide}
+    \end{figure}
+    \FloatBarrier
+
+    \begin{figure}[h!]
+        \centering
+        \adjincludegraphics[width=0.4\textwidth]{../images/my_results/van-gogh-thin.jpg}
+        \caption{Меньший размер мазков}
+        \label{fig:my-van-gog-thin}
+    \end{figure}
+    \FloatBarrier
 
     % https://github.com/Ardibid/ArtisticStyleRoboticPainting
     % A robotic system for interpreting images into painted artwork Carlos Aguilar, Hod Lipson
@@ -107,11 +147,13 @@
 
     Поэтому для этого использовалась библиотека, написанная мной (см. подробнее в ~\ref{sec:tecnical}).
 
+    \section{Технические аспекты}\label{sec:tecnical}
+    \input{tecnical_aspects.tex}
+
+
     \section{Описание программы в общих чертах}\label{sec:general_description}
     \input{general_description}
 
-    \section{Технические аспекты}\label{sec:tecnical}
-    \input{tecnical_aspects.tex}
 
     \section {Алгоритмы оптимизации}\label{sec:opimization_algorithms}
     \input{optimization_algorithms}
