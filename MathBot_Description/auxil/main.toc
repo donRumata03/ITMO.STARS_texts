@@ -1,8 +1,11 @@
 \selectlanguage *{russian}
 \contentsline {section}{\numberline {1}Формулировка задачи}{3}{section.1}%
 \contentsline {section}{\numberline {2}Обзор}{3}{section.2}%
-\contentsline {section}{\numberline {3}Описание алгоритма в общих чертах}{4}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Разбор выражений}{4}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Дерево алгоритмов оптимизации}{4}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Модификации в ГА}{5}{section.4}%
-\contentsline {section}{\numberline {5}Дальнейшее развитие}{5}{section.5}%
+\contentsline {section}{\numberline {3}Технические подробности}{4}{section.3}%
+\contentsline {section}{\numberline {4}Описание алгоритма в общих чертах}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Разбор выражений}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Дерево алгоритмов оптимизации}{4}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Идея}{4}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Распределение вычислительного ресурса}{4}{subsubsection.4.2.2}%
+\contentsline {section}{\numberline {5}Модификации в ГА}{5}{section.5}%
+\contentsline {section}{\numberline {6}Дальнейшее развитие}{6}{section.6}%
