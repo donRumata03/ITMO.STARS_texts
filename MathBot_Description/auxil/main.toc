@@ -1,12 +1,12 @@
 \selectlanguage *{russian}
 \contentsline {section}{\numberline {1}Формулировка задачи}{3}{section.1}%
 \contentsline {section}{\numberline {2}Обзор}{3}{section.2}%
-\contentsline {section}{\numberline {3}Технические подробности}{4}{section.3}%
-\contentsline {section}{\numberline {4}Описание алгоритма в общих чертах}{4}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Разбор выражений}{4}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Дерево алгоритмов оптимизации}{4}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Идея}{4}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Распределение вычислительного ресурса}{5}{subsubsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}Схема дерева}{5}{subsubsection.4.2.3}%
-\contentsline {section}{\numberline {5}Модификации в ГА}{6}{section.5}%
-\contentsline {section}{\numberline {6}Дальнейшее развитие}{9}{section.6}%
+\contentsline {section}{\numberline {3}Технические подробности}{5}{section.3}%
+\contentsline {section}{\numberline {4}Описание алгоритма в общих чертах}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Разбор выражений}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Дерево алгоритмов оптимизации}{5}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Идея}{5}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Схема дерева}{6}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Распределение вычислительного ресурса}{8}{subsubsection.4.2.3}%
+\contentsline {section}{\numberline {5}Модификации в ГА}{9}{section.5}%
+\contentsline {section}{\numberline {6}Дальнейшее развитие}{11}{section.6}%
