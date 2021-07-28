@@ -1,0 +1,134 @@
+%! Author = Vova
+%! Date = 28.07.2021
+
+% Preamble
+\documentclass[11pt]{article}
+
+% Packages
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{polyglossia}
+\usepackage{graphicx}
+\usepackage{babel,blindtext}
+\usepackage{subfig}
+\usepackage{iftex}
+\usepackage{xcolor}
+\usepackage{amssymb}
+\usepackage{adjustbox}
+\usepackage[normalem]{ulem}
+\usepackage{amsfonts}
+\usepackage{placeins}
+\usepackage{listings}
+
+\lstset{basicstyle=\ttfamily,keywordstyle=\underbar,morekeywords={plot,solve,optimize,for,in,minorant}}
+
+% Language and Font settings
+
+% Kurale
+% New Standard Old
+\setdefaultlanguage{russian}
+\setmainfont[Ligatures=TeX]{Kurale}
+\newfontfamily\cyrillicfont{Kurale}
+
+% Author, date
+\title{Описание Математического Бота}
+\author{Латыпов Владимир Витальевич}
+\date{\today}
+
+% Graphics settings
+\graphicspath{{../images/}}
+
+
+
+% Document
+\begin{document}
+
+    \maketitle
+    \newpage
+
+    \tableofcontents
+    \newpage
+
+
+    \section{Формулировка задачи}\label{sec:formulating-task}
+    Математический бот — это набор инструментов для работы с математическими сущностями через интерфейс привычных нам социальных сетей.
+    В отличие от WolframAlpha, бот специализируется на оптимизации многомерных функций и численном решении уравнений с большим количеством переменных
+    (проверено, что с этим бот справляется лучше).
+
+    Технически бот состоит из двух частей:
+    \begin{itemize}
+        \item Условный «front-end» — программа (написана на python), которая через vk_api выполняет коммуникативную функцию, то есть общается с пользователем и,
+        когда требуется, вызывает основной блок.
+        \item А именно — «back-end» интерфейс, который написан на C++ и компилируется в полноценное консольное приложение.
+        Он и занимается оптимизацией функций, решениями уравнений и т.д.
+    \end{itemize}
+
+    Поэтому больший интерес, конечно, представляет back-end часть.
+
+    \section{Обзор}\label{sec:overview}
+
+    Бот умеет:
+    \begin{itemize}
+        \item Оптимизировать функции
+        \item Решать уравнения
+        \item Строить графики
+    \end{itemize}
+
+    Третий режим добавлен для удобства — чтобы рассматривать функции (правда, пока только 2-х мерные),
+    не выходя из диалога с ботом.
+
+    Во всех случаях вводится математическое выражение и, возможно, дополнительные параметры.
+    Предусмотренно два варианта введения запросов боту:
+    \begin{itemize}
+        \item Через коммуникацию: от пользователя требуется читать сообщения бота, предложенные ответы, знакомясь с интерфейсом бота,
+              и, отвечать на них (зачастую достаточно выбрать вариант из предложенных).
+              Этот вариант подходит для людей, которые только знакомятся с возможностями бота.
+        \item Quick Input Mode (QIM).
+              Если пользователь точно знает, что ему нужно и что значат аргументы, для него целесообразно использовать эту возможность.
+              Вся информация для запроса передаётся одним сообщением, содержащим корректрую команду QIM.
+
+        Типичный запрос выглядит так (переносы строки не важны): \newline
+        \begin{lstlisting}[label={lst:QIM-example}]
+            optimize x + y^2 - 1000.5
+            for x in [-10; 100],
+            y in (10.3e-100, 123)
+            | minorant 10
+        \end{lstlisting}
+    \end{itemize}
+
+    Подробнее об интерфейсе можно прочитать в Инструкции (ВСТАВИТЬ ССЫЛКУ!).
+
+
+    В отличие от других подобных инструментов, бот предоставляет дружелюбный интерфейс: если пользователь что-то некорректно указал,
+    бот известит его об этом.
+    Однако иногда бот проверяет характер: например, ему не очень нравится, когда много раз неправильно указывают аргумент или
+    когда пишут с маленькой буквы.
+
+    \section{Технические подробности}
+
+
+    \section{Описание алгоритма в общих чертах}
+
+    \subsection{Разбор выражений}
+
+    Оптимизация: если какая-то ветка полностью вычислима заранее (без знания переменных), она считается сразу.
+    Если +0 или *1, это тоже убирается.
+
+
+    \subsection{Дерево алгоритмов оптимизации}
+    \begin{figure}[h!]
+        \centering
+        \adjincludegraphics[width=\textwidth, clip, trim={0.0\width} {0.35\height} {0.0\width} {0.0\height}]{OptTree_scheme.pdf}
+        \caption{Схема дерева оптимизации}
+        \label{fig:opt-tree}
+    \end{figure}
+    \FloatBarrier
+
+
+    \section{Модификации в ГА}
+
+    \section{Дальнейшее развитие}
+    — Добавить ещё алгоритмы.
+    — Использовать аналитические методы, где возможно (например, для решения уравнений)
+
+\end{document}
