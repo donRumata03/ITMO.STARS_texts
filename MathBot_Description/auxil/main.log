@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2021.7.13)  28 JUL 2021 14:18
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2021.7.13)  28 JUL 2021 14:42
 entering extended mode
 **./main.tex
 (main.tex
@@ -784,18 +784,33 @@ Overfull \hbox (0.22836pt too wide) in paragraph at lines 104--108
 тавляет дру-
  []
 
+
+Overfull \hbox (0.52402pt too wide) in paragraph at lines 126--128
+[]\TU/Kurale(1)/b/n/10.95 Здесь нужно понимать, что, проектируя алгоритм оптими
+зации, при-
+ []
+
+File: ../images/balance.jpg Graphic file (type bmp)
+<../images/balance.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [4]
 File: ../images/OptTree_scheme.pdf Graphic file (type pdf)
 <use ../images/OptTree_scheme.pdf>
- [5]
-Overfull \hbox (3.67523pt too wide) in paragraph at lines 153--154
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5]
+Overfull \hbox (3.67523pt too wide) in paragraph at lines 170--171
 []\TU/Kurale(1)/b/n/10.95 Встаёт вопрос, какое соотношение значений $\OML/cmm/m
 /it/10.95 E$ \TU/Kurale(1)/b/n/10.95 и $\OML/cmm/m/it/10.95 population[]size$ \
 TU/Kurale(1)/b/n/10.95 обес-
  []
 
-
-Overfull \hbox (25.2237pt too wide) detected at line 163
+[6]
+Overfull \hbox (25.2237pt too wide) detected at line 180
 [] []
  []
 
@@ -805,7 +820,7 @@ ype bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6]
+[7]
 File: ../images/exploring_optimal_epoch_pow_5000_iterations.png Graphic file (t
 ype bmp)
 <../images/exploring_optimal_epoch_pow_5000_iterations.png>
@@ -816,7 +831,7 @@ File: ../images/exploring_optimal_epoch_pow_100000_iterations.png Graphic file
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7]
+[8]
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -851,35 +866,32 @@ braces):
 >  {russian/babelname}  =>  {russian}
 >  {russian/localnumeral}  =>  {russiannumerals}
 >  {russian/Localnumeral}  =>  {Russiannumerals}.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
- [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 234.
+ [9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 234.
  (D:/Projects\ITMO.STARS_texts\MathBot_Description\auxil\main.aux
 LaTeX Info: Redefining \rmfamily on input line 21.
 LaTeX Info: Redefining \sffamily on input line 21.
 LaTeX Info: Redefining \ttfamily on input line 21.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 216.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 216.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 234.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 234.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 91A5DEEDD663BBD5DF1939CB3C59F969;2115.
+(rerunfilecheck)             Checksum: 60EF31E3541F9FEEE9F77D2FDADA870E;2279.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 216.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 234.
  ) 
 Here is how much of TeX's memory you used:
- 17626 strings out of 414480
- 321229 string characters out of 2906353
- 665969 words of memory out of 3000000
- 34636 multiletter control sequences out of 15000+200000
+ 17634 strings out of 414480
+ 321372 string characters out of 2906353
+ 667469 words of memory out of 3000000
+ 34642 multiletter control sequences out of 15000+200000
  541883 words of font info for 72 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  67i,10n,103p,934b,1013s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on D:/Projects\ITMO.STARS_texts\MathBot_Description\out\main.pdf
- (8 pages).
+ (9 pages).
