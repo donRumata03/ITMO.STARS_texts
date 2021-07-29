@@ -21,16 +21,31 @@
 \usepackage{placeins}
 \usepackage{listings}
 
+%\usepackage[T1, T2A]{fontenc}
+%\usepackage[utf8]{inputenc}
+%\usepackage[russian]{babel}
+
+
 \lstset{basicstyle=\ttfamily,keywordstyle=\underbar,morekeywords={plot,solve,optimize,for,in,minorant}}
 
 % Language and Font settings
 
 % Kurale
 % New Standard Old
+
+% Polyglossia:
 \setdefaultlanguage{russian}
-\setmainfont[Ligatures=TeX]{Kurale}
 \newfontfamily\cyrillicfont{Kurale}
-\newfontfamily\cyrillicfontsf{Kurale}
+\setmainfont[Ligatures=TeX]{Kurale}
+
+%\newfontfamily\cyrillicfontsf{Kurale}
+
+
+
+%                                                               Inputenc && russian
+%\usepackage[utf8]{inputenc}
+%\usepackage[russian]{babel}
+
 
 % Author, date
 \title{Описание Математического Бота}
@@ -115,7 +130,7 @@
 
     \end{itemize}
 
-    Подробнее об интерфейсе можно прочитать в Инструкции (ВСТАВИТЬ ССЫЛКУ!).
+    Подробнее об интерфейсе можно прочитать в Инструкции: \url{https://github.com/donRumata03/ITMO.STARS_texts/blob/master/FinalResults/Short_guide-1_1.pdf}.
 
 
     В отличие от других подобных инструментов, бот предоставляет дружелюбный интерфейс: если пользователь что-то некорректно указал,
@@ -412,9 +427,10 @@
     Однако, конечно же, уже сейчас можно использовать конструкцию:
 
     \begin{lstlisting}[label={lst:equation-system}]
-            solve (eq_1_left - eq_1_right)^2 + ... + (eq_n_left - eq_n_right)^2
+            solve (eq_1_left - eq_1_right)^2
+            + ... + (eq_n_left - eq_n_right)^2
             for x in [...; ...],
-            y in (..., ...],
+            y in (..., ...),
             ...
             | minorant ...
     \end{lstlisting}
@@ -465,6 +481,6 @@
     причём часто можно сделать аналитически, эффективно и со 100\%-ной вероятностью.
     Иногда в таких случаях люди аппроксимируют эти функции гладкими — а зря:
     возможно, более эффективное решение этой практической задачи — дождаться,
-    пока режим оптимизации негладких функций появится в боте ;\).
+    пока режим оптимизации негладких функций появится в боте ;).
 
 \end{document}

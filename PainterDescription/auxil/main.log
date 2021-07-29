@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2021.7.13)  28 JUL 2021 21:39
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2021.7.13)  29 JUL 2021 16:45
 entering extended mode
 **./main.tex
 (main.tex
@@ -541,14 +541,13 @@ Package fontspec Info: Could not resolve font "Kurale/I" (it probably doesn't
 
 
 Package fontspec Info: Font family 'Kurale(0)' created for font 'Kurale' with
-(fontspec)             options [Ligatures=TeX,Ligatures=TeX].
+(fontspec)             options [].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"Kurale/OT:script=latn;language=dflt;mapping=tex-text
-;"
+(fontspec)             <->"Kurale/OT:script=latn;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
@@ -565,13 +564,14 @@ Package fontspec Info: Could not resolve font "Kurale/I" (it probably doesn't
 
 
 Package fontspec Info: Font family 'Kurale(1)' created for font 'Kurale' with
-(fontspec)             options [].
+(fontspec)             options [Ligatures=TeX,Ligatures=TeX].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"Kurale/OT:script=latn;language=dflt;"
+(fontspec)             <->"Kurale/OT:script=latn;language=dflt;mapping=tex-text
+;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
@@ -582,34 +582,34 @@ LaTeX Info: Redefining \ttfamily on input line 21.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
-0.
+6.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 40.
+Package hyperref Info: Link coloring OFF on input line 46.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -623,9 +623,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count312
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 46.
+LaTeX Info: Redefining \pageref on input line 46.
+LaTeX Info: Redefining \nameref on input line 46.
  (D:/Projects\ITMO.STARS_texts\PainterDescription\auxil\main.out)
 (D:/Projects\ITMO.STARS_texts\PainterDescription\auxil\main.out)
 \@outlinefile=\write3
@@ -637,74 +637,74 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 40.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 40.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 40.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 40.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 40.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 40.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 40.
-LaTeX Font Info:    Redeclaring math accent \check on input line 40.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 40.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 40.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 40.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 40.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 46.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 46.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 46.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 46.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 46.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 46.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 46.
+LaTeX Font Info:    Redeclaring math accent \check on input line 46.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 46.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 46.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 46.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 46.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 40.
+(Font)              `operators' in the math version `normal' on input line 46.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Kurale(0)/m/n on input line 40.
+(Font)                  OT1/cmr/m/n --> TU/Kurale(1)/m/n on input line 46.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 40.
+(Font)              `operators' in the math version `bold' on input line 46.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Kurale(0)/m/n on input line 40.
+(Font)                  OT1/cmr/bx/n --> TU/Kurale(1)/m/n on input line 46.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/Kurale(0)/m/n --> TU/Kurale(0)/m/n on input line 40.
+(Font)                  TU/Kurale(1)/m/n --> TU/Kurale(1)/m/n on input line 46.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Kurale(0)/m/it on input line 40.
+(Font)                  OT1/cmr/m/it --> TU/Kurale(1)/m/it on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Kurale(0)/b/n on input line 40.
+(Font)                  OT1/cmr/bx/n --> TU/Kurale(1)/b/n on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 40.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 40.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 46.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/Kurale(0)/m/n --> TU/Kurale(0)/b/n on input line 40.
+(Font)                  TU/Kurale(1)/m/n --> TU/Kurale(1)/b/n on input line 46.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Kurale(0)/b/it on input line 40.
+(Font)                  OT1/cmr/bx/it --> TU/Kurale(1)/b/it on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 40.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 40.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 46.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \rmfamily on input line 40.
-LaTeX Info: Redefining \sffamily on input line 40.
-LaTeX Info: Redefining \ttfamily on input line 40.
-LaTeX Info: Redefining \rmfamily on input line 40.
-LaTeX Info: Redefining \sffamily on input line 40.
-LaTeX Info: Redefining \ttfamily on input line 40.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
+LaTeX Info: Redefining \rmfamily on input line 46.
+LaTeX Info: Redefining \sffamily on input line 46.
+LaTeX Info: Redefining \ttfamily on input line 46.
+LaTeX Info: Redefining \rmfamily on input line 46.
+LaTeX Info: Redefining \sffamily on input line 46.
+LaTeX Info: Redefining \ttfamily on input line 46.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
@@ -718,8 +718,8 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
 ]
 
-LaTeX Font Warning: Font shape `TU/Kurale(1)/b/n' undefined
-(Font)              using `TU/Kurale(1)/m/n' instead on input line 43.
+LaTeX Font Warning: Font shape `TU/Kurale(0)/b/n' undefined
+(Font)              using `TU/Kurale(0)/m/n' instead on input line 49.
 
 (D:/Projects\ITMO.STARS_texts\PainterDescription\auxil\main.toc
 LaTeX Info: Redefining \rmfamily on input line 1.
@@ -727,8 +727,8 @@ LaTeX Info: Redefining \sffamily on input line 1.
 LaTeX Info: Redefining \ttfamily on input line 1.
  [2]
 
-LaTeX Font Warning: Font shape `TU/Kurale(1)/m/it' undefined
-(Font)              using `TU/Kurale(1)/m/n' instead on input line 44.
+LaTeX Font Warning: Font shape `TU/Kurale(0)/m/it' undefined
+(Font)              using `TU/Kurale(0)/m/n' instead on input line 44.
 
 )
 \tf@toc=\write4
@@ -736,7 +736,7 @@ LaTeX Font Warning: Font shape `TU/Kurale(1)/m/it' undefined
 
  [3]
 
-main.tex:53: Package polyglossia Error: The current latin font Kurale(1) does n
+main.tex:78: Package polyglossia Error: The current latin font Kurale(1) does n
 ot contain the "Cyrillic" script!
 (polyglossia)                Please define \cyrillicfont with \newfontfamily co
 mmand.
@@ -745,43 +745,38 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 ... ссылке \url{https://youtu.be/V8-YITMag_I}
-                                                  .
+l.78     \url{https://youtu.be/V8-YITMag_I}
+                                           .
 This error message was generated by an \errmessage
 command, so I can't give any explicit help.
 Pretend that you're Hercule Poirot: Examine all clues,
 and deduce the truth by order and method.
 
+
+Overfull \hbox (1.86781pt too wide) in paragraph at lines 75--79
+[]\TU/Kurale(0)/b/n/10.95 Эти две части связывает следующая задача: разбиение д
+анного раст-
+ []
+
+
+Overfull \hbox (5.84592pt too wide) in paragraph at lines 82--85
+[]\TU/Kurale(0)/b/n/10.95 Данное описание посвящено именно задаче разбиения дан
+ного изоб-
+ []
+
 File: ../images/concurents/initial_image_hod.png Graphic file (type bmp)
 <../images/concurents/initial_image_hod.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+[4]
 File: ../images/concurents/result_hod.png Graphic file (type bmp)
 <../images/concurents/result_hod.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[4]
 File: ../images/concurents/bidgoli_initial_image.jpg Graphic file (type bmp)
 <../images/concurents/bidgoli_initial_image.jpg>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+ [5]
 File: ../images/concurents/bidgoli_result.png Graphic file (type bmp)
 <../images/concurents/bidgoli_result.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[5]
+ [6]
 File: ../images/my_results/van-gogh.jpg Graphic file (type bmp)
 <../images/my_results/van-gogh.jpg>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[6]
 File: ../images/my_results/van-gogh-wide.jpg Graphic file (type bmp)
 <../images/my_results/van-gogh-wide.jpg>
 File: ../images/my_results/van-gogh-thin.jpg Graphic file (type bmp)
@@ -807,7 +802,7 @@ l.5 ...url{https://github.com/donRumata03/Painter}
 
 
 Overfull \hbox (16.00365pt too wide) in paragraph at lines 5--6
-[]\TU/Kurale(1)/b/n/10.95 Код хранится в github-репозитории: []$[][][][][] [] [
+[]\TU/Kurale(0)/b/n/10.95 Код хранится в github-репозитории: []$[][][][][] [] [
 ] [] [][][][][][] [] [][][] [] [][][][][][][][][][][] []
  []
 
@@ -828,13 +823,13 @@ l.14 ...l{https://github.com/donRumata03/pythonic}
 
 
 Overfull \hbox (5.67053pt too wide) in paragraph at lines 14--19
-[]\TU/Kurale(1)/b/n/10.95 Для работы проекта также необходима библиотека «pytho
+[]\TU/Kurale(0)/b/n/10.95 Для работы проекта также необходима библиотека «pytho
 nic» ([]$[][][][][] []
  []
 
 
 Overfull \hbox (0.52774pt too wide) in paragraph at lines 29--30
-[]\TU/Kurale(1)/b/n/10.95 Функционал для работы с многопоточностью, в том числе
+[]\TU/Kurale(0)/b/n/10.95 Функционал для работы с многопоточностью, в том числе
  — thread
  []
 
@@ -854,13 +849,12 @@ l.33 ...\url{https://github.com/sammycage/lunasvg}
 
 
 Overfull \hbox (5.14972pt too wide) in paragraph at lines 33--34
-[]\TU/Kurale(1)/b/n/10.95 Для работы с SVG используется библиотека lunasvg ([]$
+[]\TU/Kurale(0)/b/n/10.95 Для работы с SVG используется библиотека lunasvg ([]$
 [][][][][] [] [] [] [][][][][][] []
  []
 
-[9]
 
-tecnical_aspects.tex:38: Package polyglossia Error: The current latin font Kura
+tecnical_aspects.tex:36: Package polyglossia Error: The current latin font Kura
 le(1) does not contain the "Cyrillic" script!
 (polyglossia)                Please define \cyrillicfont with \newfontfamily co
 mmand.
@@ -869,13 +863,34 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 ...https://github.com/donRumata03/PowerfulGA}
+l.36 ...ендации о best practice её использования.}
+                                                  
+(That was another \errmessage.)
+
+
+Overfull \hbox (25.2511pt too wide) in paragraph at lines 36--37
+[][]\TU/Kurale(0)/b/n/10.95 P. S. У этой библиотеки отличный автор ([]$[][][][]
+[] [] [] [] [][][][][][] [] [][][] [] [][][][][][][][][]$[]),
+ []
+
+[9]
+
+tecnical_aspects.tex:39: Package polyglossia Error: The current latin font Kura
+le(1) does not contain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ...https://github.com/donRumata03/PowerfulGA}
                                                   
 (That was another \errmessage.)
 
 )
-Overfull \hbox (33.50403pt too wide) in paragraph at lines 38--152
-\TU/Kurale(1)/b/n/10.95 C++) и вынесен в отдельную репозиторию: []$[][][][][] [
+Overfull \hbox (33.50403pt too wide) in paragraph at lines 39--193
+\TU/Kurale(0)/b/n/10.95 C++) и вынесен в отдельную репозиторию: []$[][][][][] [
 ] [] [] [][][][][][] [] [][][] [] [][][][][][][][][][][] []
  []
 
@@ -914,19 +929,19 @@ File: ../images/polygonal_stroke.png Graphic file (type bmp)
 <../images/polygonal_stroke.png>
 
 Overfull \hbox (4.37265pt too wide) in paragraph at lines 147--149
-[]\TU/Kurale(1)/m/it/10.95 При использовании этого метода никакая существенная 
+[]\TU/Kurale(0)/m/it/10.95 При использовании этого метода никакая существенная 
 часть пик-
  []
 
 [17]
 Overfull \hbox (6.8297pt too wide) in paragraph at lines 178--180
-[]\TU/Kurale(1)/m/it/10.95 Поэтому рассмотрение координат разных точек как сове
+[]\TU/Kurale(0)/m/it/10.95 Поэтому рассмотрение координат разных точек как сове
 ршенно неза-
  []
 
 
 Overfull \hbox (7.83487pt too wide) in paragraph at lines 197--201
-\TU/Kurale(1)/m/it/10.95 Когда происходит корректировка по каждой из координат,
+\TU/Kurale(0)/m/it/10.95 Когда происходит корректировка по каждой из координат,
  если bounding-
  []
 
@@ -987,7 +1002,7 @@ Missing character: There is no е in font cmmi10!
 Missing character: There is no й in font cmmi10!
 
 Overfull \hbox (85.58022pt too wide) in paragraph at lines 213--216
-\TU/Kurale(1)/m/it/10.95 нию (то есть если размер слишком большой — верхней гра
+\TU/Kurale(0)/m/it/10.95 нию (то есть если размер слишком большой — верхней гра
 нице (max$[]\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 ; []\OT1/cmr/m/n/10.95 (\OM
 L/cmm/m/it/10.95 min[]\OT1/cmr/m/n/10.95 ))\OML/cmm/m/it/10.95 :$ 
  []
@@ -1008,42 +1023,42 @@ l.226 .../samuel.hornus/quadratic-arc-length.html}
 
 
 Overfull \hbox (19.89253pt too wide) in paragraph at lines 226--227
-[]\TU/Kurale(1)/m/it/10.95 Применение этого к кривым безье можно найти здесь: [
+[]\TU/Kurale(0)/m/it/10.95 Применение этого к кривым безье можно найти здесь: [
 ]$[][][][][] [] [] [] [][][][][][][] []
  []
 
 [19] [20]
 Overfull \hbox (1.08495pt too wide) in paragraph at lines 288--291
-[]\TU/Kurale(1)/m/it/10.95 Известно, что время оптимизации до заданного качеств
+[]\TU/Kurale(0)/m/it/10.95 Известно, что время оптимизации до заданного качеств
 а очень силь-
  []
 
 [21]
 Overfull \hbox (0.68794pt too wide) in paragraph at lines 312--313
-[][]\TU/Kurale(1)/m/it/10.95 Пояснение: Применительно к данной задаче суперадди
+[][]\TU/Kurale(0)/m/it/10.95 Пояснение: Применительно к данной задаче суперадди
 тивность вре-
  []
 
 [22] [23]
-Overfull \hbox (6.05374pt too wide) in paragraph at lines 379--380
-[]\TU/Kurale(1)/m/it/10.95 Задаётся значение max_perimeter_contribution — опред
-еляет, во сколь-
+Overfull \hbox (1.29408pt too wide) in paragraph at lines 379--381
+[]\TU/Kurale(0)/m/it/10.95 Задаётся значение max_perimeter_contribution — оно о
+пределяет мак-
  []
 
-general_description.tex:389: Missing { inserted.
+general_description.tex:390: Missing { inserted.
 <to be read again> 
                    \left 
-l.389         \times \left(1 - e^\left
+l.390         \times \left(1 - e^\left
                                       (\frac{relative\_excess}{\frac{x\_of\_...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-general_description.tex:389: Missing } inserted.
+general_description.tex:390: Missing } inserted.
 <inserted text> 
                 }
-l.389 ...ln(1 - characteristic\_y)}} \right)\right
+l.390 ...ln(1 - characteristic\_y)}} \right)\right
                                                   )
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1061,7 +1076,7 @@ File: ../images/low_curvature_stroke.png Graphic file (type bmp)
 <../images/low_curvature_stroke.png>
  [26] [27] [28]) (optimization_algorithms.tex
 Overfull \hbox (0.6844pt too wide) in paragraph at lines 2--3
-[]\TU/Kurale(1)/m/it/10.95 Идея работы генетического алгоритма заимствована у п
+[]\TU/Kurale(0)/m/it/10.95 Идея работы генетического алгоритма заимствована у п
 рироды: так-
  []
 
@@ -1082,25 +1097,25 @@ l.16 ...g/news/wp-content/uploads/2018/08/112.pdf}
 
 
 Overfull \hbox (16.05391pt too wide) in paragraph at lines 15--18
-\TU/Kurale(1)/m/it/10.95 ностью 100%. Зато исследования ([]$[][][][][][] [] [][
+\TU/Kurale(0)/m/it/10.95 ностью 100%. Зато исследования ([]$[][][][][][] [] [][
 ][] [] [][][][] [] [][][][][][][][][][][] [] [][][][][][][] []
  []
 
 [30]
-Overfull \hbox (5.02031pt too wide) in paragraph at lines 54--55
-[]\TU/Kurale(1)/m/it/10.95 Возможно, результаты скрещивания одновременно более 
+Overfull \hbox (5.02031pt too wide) in paragraph at lines 56--57
+[]\TU/Kurale(0)/m/it/10.95 Возможно, результаты скрещивания одновременно более 
 двух
  []
 
 
-Overfull \hbox (4.59125pt too wide) in paragraph at lines 63--64
-[]\TU/Kurale(1)/m/it/10.95 Если алгоритм подходит к концу, добавить лучший гено
+Overfull \hbox (4.59125pt too wide) in paragraph at lines 65--66
+[]\TU/Kurale(0)/m/it/10.95 Если алгоритм подходит к концу, добавить лучший гено
 м из преды-
  []
 
 
-Overfull \hbox (0.99811pt too wide) in paragraph at lines 69--72
-[]\TU/Kurale(1)/m/it/10.95 Учитывая тот факт, что в большинстве задач, решаемых
+Overfull \hbox (0.99811pt too wide) in paragraph at lines 71--74
+[]\TU/Kurale(0)/m/it/10.95 Учитывая тот факт, что в большинстве задач, решаемых
  мною, бо́ль-
  []
 
@@ -1123,8 +1138,8 @@ File: ../images/gini_index_world.jpg Graphic file (type bmp)
 <../images/gini_index_world.jpg>
 ) (subsequent_development.tex
 
-LaTeX Font Warning: Font shape `TU/Kurale(1)/b/it' undefined
-(Font)              using `TU/Kurale(1)/b/n' instead on input line 4.
+LaTeX Font Warning: Font shape `TU/Kurale(0)/b/it' undefined
+(Font)              using `TU/Kurale(0)/b/n' instead on input line 4.
 
 [35]
 
@@ -1143,7 +1158,7 @@ l.14 ...tps://www.youtube.com/watch?v=VaXHtai2alU}
 
 
 Overfull \hbox (48.70386pt too wide) in paragraph at lines 14--15
-[]\TU/Kurale(1)/m/it/10.95 Пример того, как художник ([]$[][][][][] [] [] [] []
+[]\TU/Kurale(0)/m/it/10.95 Пример того, как художник ([]$[][][][][] [] [] [] []
 [][] [] [][][][][][][] [] [][][] [] [][][][][] [] [] [] [][][][][][][][][][][]$
 [])
  []
@@ -1172,7 +1187,7 @@ l.33 ...ooks/textbooks/akhmerov/mo_unicode/4.html}
 
 
 Overfull \hbox (9.88612pt too wide) in paragraph at lines 32--35
-\TU/Kurale(1)/b/it/10.95 на — сходимость квадратичная ([]$[][][][] [] [] [] [] 
+\TU/Kurale(0)/b/it/10.95 на — сходимость квадратичная ([]$[][][][] [] [] [] [] 
 [] [][][] [] [][][] [] [][] [] [][][][][] [] [][][][][][][][][] []
  []
 
@@ -1194,22 +1209,22 @@ l.36 ...owerfulGA/blob/master/other_optimization/}
 Overfull \hbox (15.76457pt too wide) in paragraph at lines 36--38
 [][][][][][] [] [][][] [] [][][][][][][][][][][] [] [][][][][][][][][][] [] [][
 ][][] [] [][][][][][] [] [][][][][] [] [][][][][][][][][][][][][]$[]\TU/Kurale(
-1)/b/it/10.95 .
+0)/b/it/10.95 .
  []
 
 [36] [37]
-subsequent_development.tex:67: Missing $ inserted.
+subsequent_development.tex:70: Missing $ inserted.
 <inserted text> 
                 $
-l.67 ....org/wiki/Test_functions_for_optimization}
+l.70 ....org/wiki/Test_functions_for_optimization}
                                                   )
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-subsequent_development.tex:67: Missing $ inserted.
+subsequent_development.tex:70: Missing $ inserted.
 <inserted text> 
                 $
-l.67 ....org/wiki/Test_functions_for_optimization}
+l.70 ....org/wiki/Test_functions_for_optimization}
                                                   )
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1218,20 +1233,21 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (45.4643pt too wide) in paragraph at lines 67--69
-\TU/Kurale(1)/b/it/10.95 из списка в Википедии []https://en.wikipedia.org/wiki/
-Test$[]\OML/cmm/m/it/10.95 unctions[]or[]ptimization$[]\TU/Kurale(1)/b/it/10.95
+Overfull \hbox (45.4643pt too wide) in paragraph at lines 70--72
+\TU/Kurale(0)/b/it/10.95 из списка в Википедии []https://en.wikipedia.org/wiki/
+Test$[]\OML/cmm/m/it/10.95 unctions[]or[]ptimization$[]\TU/Kurale(0)/b/it/10.95
  )
  []
 
 
-Overfull \hbox (72.5533pt too wide) in paragraph at lines 70--73
-\TU/Kurale(1)/b/it/10.95 или hyperelite _fit_pow, epoch_pow, mutation_percent_s
+Overfull \hbox (72.5533pt too wide) in paragraph at lines 73--76
+\TU/Kurale(0)/b/it/10.95 или hyperelite _fit_pow, epoch_pow, mutation_percent_s
 igma, target_gene_mutation_number
  []
 
+[38]
 
-subsequent_development.tex:94: Package polyglossia Error: The current latin fon
+subsequent_development.tex:97: Package polyglossia Error: The current latin fon
 t Kurale(1) does not contain the "Cyrillic" script!
 (polyglossia)                Please define \cyrillicfont with \newfontfamily co
 mmand.
@@ -1240,55 +1256,54 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94 ...D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%B5}
+l.97 ...D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%B5}
                                                   )
 (That was another \errmessage.)
 
 
-Overfull \hbox (10.95024pt too wide) in paragraph at lines 93--95
-\TU/Kurale(1)/b/it/10.95 ства поиска. (алгоритм нахождения МВО в n-мерном прост
+Overfull \hbox (10.95024pt too wide) in paragraph at lines 96--98
+\TU/Kurale(0)/b/it/10.95 ства поиска. (алгоритм нахождения МВО в n-мерном прост
 ранстве: []$[][][][][] []
  []
 
 
-Overfull \hbox (13.66867pt too wide) in paragraph at lines 93--95
+Overfull \hbox (13.66867pt too wide) in paragraph at lines 96--98
 [] [] [][][][][] [] [][][][] [] [][] [] [][][][] [] [][][][][] [] [][][] [] [][
 ][][][] [] [][][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] []
 [] []
  []
 
 
-Overfull \hbox (7.91992pt too wide) in paragraph at lines 93--95
+Overfull \hbox (7.91992pt too wide) in paragraph at lines 96--98
 [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][][] [] [][] [] [][] 
 [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][]
  [] [][] []
  []
 
 
-Overfull \hbox (14.16867pt too wide) in paragraph at lines 93--95
+Overfull \hbox (14.16867pt too wide) in paragraph at lines 96--98
 [][] [] [][] [] [][][] [] [][] [] [][][] [] [][] [] [][] [] [][] [] [][] [] [][
 ] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][][] [] [][] [] 
 [][] [] [][] []
  []
 
-[38]
 Missing character: There is no ӹ in font Kurale/OT:script=latn;language=dflt;!
 Missing character: There is no ӝ in font Kurale/OT:script=latn;language=dflt;!
 
-Overfull \hbox (17.85437pt too wide) in paragraph at lines 101--104
-[]\TU/Kurale(1)/b/it/10.95 Варианты исправить этот недочёт такие: либо как-то о
-тбросить сколько-
+Overfull \hbox (1.76086pt too wide) in paragraph at lines 104--107
+[]\TU/Kurale(0)/b/it/10.95 Варианты исправить этот недочёт такие: либо как-то о
+тбросить неко-
  []
 
 [39]
-Overfull \hbox (2.82327pt too wide) in paragraph at lines 143--148
-\TU/Kurale(1)/b/it/10.95 можно распараллелить вычисление для целой популяции), 
+Overfull \hbox (2.82327pt too wide) in paragraph at lines 146--151
+\TU/Kurale(0)/b/it/10.95 можно распараллелить вычисление для целой популяции), 
 причём толь-
  []
 
 
-Overfull \hbox (0.90198pt too wide) in paragraph at lines 152--154
-[]\TU/Kurale(1)/b/it/10.95 Если использовать видеокарту для распараллеливания в
+Overfull \hbox (0.90198pt too wide) in paragraph at lines 155--157
+[]\TU/Kurale(0)/b/it/10.95 Если использовать видеокарту для распараллеливания в
 ычислений,
  []
 
@@ -1327,28 +1342,28 @@ braces):
 >  {russian/babelname}  =>  {russian}
 >  {russian/localnumeral}  =>  {russiannumerals}
 >  {russian/Localnumeral}  =>  {Russiannumerals}.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
  [42]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
  (D:/Projects\ITMO.STARS_texts\PainterDescription\auxil\main.aux
 LaTeX Info: Redefining \rmfamily on input line 21.
 LaTeX Info: Redefining \sffamily on input line 21.
 LaTeX Info: Redefining \ttfamily on input line 21.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 167.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 208.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 208.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: F69799108B8D7731909D6FB2C7C1F286;13411.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 167.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 208.
  ) 
 Here is how much of TeX's memory you used:
  16628 strings out of 414480
  308883 string characters out of 2906353
- 665312 words of memory out of 3000000
+ 664373 words of memory out of 3000000
  33614 multiletter control sequences out of 15000+200000
  541883 words of font info for 72 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
