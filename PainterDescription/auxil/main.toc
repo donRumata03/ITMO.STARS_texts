@@ -37,16 +37,17 @@
 \contentsline {subsection}{\numberline {5.2}Термины}{30}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Примерная последовательность действий ГА}{31}{subsection.5.3}%
 \contentsline {subsection}{\numberline {5.4}Конкретная реализация ГА и авторские модификации}{32}{subsection.5.4}%
-\contentsline {subsubsection}{\numberline {5.4.1}hazing\_percent: скорость сходимости}{32}{subsubsection.5.4.1}%
-\contentsline {section}{\numberline {6}Наблюдения}{32}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Неравенство зон}{32}{subsection.6.1}%
-\contentsline {section}{\numberline {7}Дальнейшее развитие}{35}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Внедрить \textit {быстрый пересчёт функции ошибки}}{36}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Разделение мазков по слоям}{36}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Добавить возможность использования локальных методов оптимизации}{36}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Организовать систему тестирования различных алгоритмов на различных функциях}{37}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Контроль уровня разнообразия особей в ГА}{38}{subsection.7.5}%
-\contentsline {subsubsection}{\numberline {7.5.1}Задание метрики}{39}{subsubsection.7.5.1}%
-\contentsline {subsection}{\numberline {7.6}Улучшить алгоритм поиска цветов и разделения на зоны}{40}{subsection.7.6}%
-\contentsline {subsection}{\numberline {7.7}Перенести графические вычисления на видеокарту}{40}{subsection.7.7}%
-\contentsline {subsection}{\numberline {7.8}Выделение границ мазками}{42}{subsection.7.8}%
+\contentsline {subsection}{\numberline {5.5}Операция «скрещивание»}{32}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}hazing\_percent: скорость сходимости}{33}{subsubsection.5.5.1}%
+\contentsline {section}{\numberline {6}Наблюдения}{34}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Неравенство зон}{34}{subsection.6.1}%
+\contentsline {section}{\numberline {7}Дальнейшее развитие}{37}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Внедрить \textit {быстрый пересчёт функции ошибки}}{37}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Разделение мазков по слоям}{37}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Добавить возможность использования локальных методов оптимизации}{37}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Организовать систему тестирования различных алгоритмов на различных функциях}{38}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Контроль уровня разнообразия особей в ГА}{39}{subsection.7.5}%
+\contentsline {subsubsection}{\numberline {7.5.1}Задание метрики}{40}{subsubsection.7.5.1}%
+\contentsline {subsection}{\numberline {7.6}Улучшить алгоритм поиска цветов и разделения на зоны}{41}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Перенести графические вычисления на видеокарту}{41}{subsection.7.7}%
+\contentsline {subsection}{\numberline {7.8}Выделение границ мазками}{43}{subsection.7.8}%
