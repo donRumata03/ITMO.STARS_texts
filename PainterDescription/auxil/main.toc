@@ -1,53 +1,58 @@
 \selectlanguage *{russian}
 \contentsline {section}{\numberline {1}«Abstract»}{4}{section.1}%
 \contentsline {section}{\numberline {2}Формулировка задачи}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Аналог №1}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Аналог №2}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.1}Аналог №1}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Аналог №2}{5}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Технические аспекты}{8}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Основное}{8}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Библиотеки}{8}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}OpenCV}{8}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Pythonic}{9}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}lunasvg}{10}{subsubsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.4}PowerfulGA}{10}{subsubsection.3.2.4}%
-\contentsline {section}{\numberline {4}Описание программы в общих чертах}{10}{section.4}%
+\contentsline {subsubsection}{\numberline {3.2.2}Pythonic}{8}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}lunasvg}{9}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}PowerfulGA}{9}{subsubsection.3.2.4}%
+\contentsline {section}{\numberline {4}Описание программы в общих чертах}{9}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Представление «решения» — набора мазков}{10}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Задание функции ошибки}{11}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Растеризация мазков}{12}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Проведение операций ГА}{17}{subsection.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.1}Первоначальная генерация популяции}{20}{subsubsection.4.4.1}%
-\contentsline {subsubsection}{\numberline {4.4.2}Мутация и корректировка}{20}{subsubsection.4.4.2}%
-\contentsline {subsubsection}{\numberline {4.4.3}Скрещивание}{20}{subsubsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.5}Учёт цвета при оптимизации}{20}{subsection.4.5}%
-\contentsline {subsubsection}{\numberline {4.5.1}Знание цвета при рендеринге необходимо}{20}{subsubsection.4.5.1}%
-\contentsline {subsubsection}{\numberline {4.5.2}Определение цвета по положению при подсчёте ФО}{20}{subsubsection.4.5.2}%
-\contentsline {subsubsection}{\numberline {4.5.3}Фиксированный цвет в зонах}{21}{subsubsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.6}Разделение картины на зоны}{21}{subsection.4.6}%
-\contentsline {subsubsection}{\numberline {4.6.1}Обоснование эффективности}{21}{subsubsection.4.6.1}%
-\contentsline {subsubsection}{\numberline {4.6.2}Прямоугольные зоны}{22}{subsubsection.4.6.2}%
-\contentsline {subsubsection}{\numberline {4.6.3}Зоны произвольной формы}{23}{subsubsection.4.6.3}%
-\contentsline {subsubsection}{\numberline {4.6.4}Распределение ресурсов по зонам}{23}{subsubsection.4.6.4}%
-\contentsline {subsection}{\numberline {4.7}Регуляция кривизны мазков}{25}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Сортировка мазков перед выпуском}{27}{subsection.4.8}%
-\contentsline {subsubsection}{\numberline {4.8.1}Сортировка по территориальному признаку}{27}{subsubsection.4.8.1}%
-\contentsline {subsubsection}{\numberline {4.8.2}Оптимальная расстановка цветов}{28}{subsubsection.4.8.2}%
-\contentsline {subsection}{\numberline {4.9}Получение итоговых цветов: сжатие палитры}{29}{subsection.4.9}%
-\contentsline {section}{\numberline {5}Алгоритмы оптимизации}{30}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Общий принцип ГА}{30}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Термины}{30}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Примерная последовательность действий ГА}{31}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Конкретная реализация ГА и авторские модификации}{32}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Операция «скрещивание»}{32}{subsection.5.5}%
-\contentsline {subsubsection}{\numberline {5.5.1}hazing\_percent: скорость сходимости}{33}{subsubsection.5.5.1}%
-\contentsline {section}{\numberline {6}Наблюдения}{34}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Неравенство зон}{34}{subsection.6.1}%
-\contentsline {section}{\numberline {7}Дальнейшее развитие}{37}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Внедрить \textit {быстрый пересчёт функции ошибки}}{37}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Разделение мазков по слоям}{37}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Добавить возможность использования локальных методов оптимизации}{37}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Организовать систему тестирования различных алгоритмов на различных функциях}{38}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Контроль уровня разнообразия особей в ГА}{39}{subsection.7.5}%
-\contentsline {subsubsection}{\numberline {7.5.1}Задание метрики}{40}{subsubsection.7.5.1}%
-\contentsline {subsection}{\numberline {7.6}Улучшить алгоритм поиска цветов и разделения на зоны}{41}{subsection.7.6}%
-\contentsline {subsection}{\numberline {7.7}Перенести графические вычисления на видеокарту}{41}{subsection.7.7}%
-\contentsline {subsection}{\numberline {7.8}Выделение границ мазками}{43}{subsection.7.8}%
+\contentsline {subsection}{\numberline {4.2}Задание функции ошибки}{10}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Растеризация мазков}{11}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Проведение операций ГА}{16}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Первоначальная генерация популяции}{18}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}Мутация и корректировка}{18}{subsubsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.3}Скрещивание}{18}{subsubsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.5}Учёт цвета при оптимизации}{18}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Знание цвета при рендеринге необходимо}{18}{subsubsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.2}Определение цвета по положению при подсчёте ФО}{18}{subsubsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.3}Фиксированный цвет в зонах}{19}{subsubsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.6}Разделение картины на зоны}{19}{subsection.4.6}%
+\contentsline {subsubsection}{\numberline {4.6.1}Обоснование эффективности}{19}{subsubsection.4.6.1}%
+\contentsline {subsubsection}{\numberline {4.6.2}Прямоугольные зоны}{20}{subsubsection.4.6.2}%
+\contentsline {subsubsection}{\numberline {4.6.3}Зоны произвольной формы}{20}{subsubsection.4.6.3}%
+\contentsline {subsubsection}{\numberline {4.6.4}Распределение ресурсов по зонам}{20}{subsubsection.4.6.4}%
+\contentsline {subsection}{\numberline {4.7}Регуляция кривизны мазков}{21}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Сортировка мазков перед выпуском}{23}{subsection.4.8}%
+\contentsline {subsubsection}{\numberline {4.8.1}Сортировка по территориальному признаку}{23}{subsubsection.4.8.1}%
+\contentsline {subsubsection}{\numberline {4.8.2}Оптимальная расстановка цветов}{24}{subsubsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.9}Получение итоговых цветов: сжатие палитры}{25}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.10}Соотнесение параметров с физическими величинами}{25}{subsection.4.10}%
+\contentsline {subsection}{\numberline {4.11}Учёт специфики кисти}{25}{subsection.4.11}%
+\contentsline {section}{\numberline {5}Алгоритмы оптимизации}{26}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Общий принцип ГА}{26}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Термины}{26}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Примерная последовательность действий ГА}{26}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Конкретная реализация ГА и авторские модификации}{27}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Операция «скрещивание»}{28}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}hazing\_percent: скорость сходимости}{28}{subsubsection.5.5.1}%
+\contentsline {section}{\numberline {6}Грядущие улучшения в ГА}{29}{section.6}%
+\contentsline {section}{\numberline {7}Наблюдения}{29}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Неравенство зон}{29}{subsection.7.1}%
+\contentsline {section}{\numberline {8}Дальнейшее развитие}{31}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Внедрить \textit {быстрый пересчёт функции ошибки}}{31}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Разделение мазков по слоям}{32}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Добавить возможность использования локальных методов оптимизации}{32}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Организовать систему тестирования различных алгоритмов на различных функциях}{32}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Контроль уровня разнообразия особей в ГА}{33}{subsection.8.5}%
+\contentsline {subsubsection}{\numberline {8.5.1}Задание метрики}{34}{subsubsection.8.5.1}%
+\contentsline {subsubsection}{\numberline {8.5.2}Определение требуемой динамики разнообразия}{35}{subsubsection.8.5.2}%
+\contentsline {subsubsection}{\numberline {8.5.3}Регуляция разнообразности}{35}{subsubsection.8.5.3}%
+\contentsline {subsection}{\numberline {8.6}Улучшить алгоритм поиска цветов и разделения на зоны}{36}{subsection.8.6}%
+\contentsline {subsection}{\numberline {8.7}Перенести графические вычисления на видеокарту}{37}{subsection.8.7}%
+\contentsline {subsection}{\numberline {8.8}Выделение границ мазками}{38}{subsection.8.8}%
